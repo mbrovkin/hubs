@@ -1,0 +1,5 @@
+hub hub1
+shortLabel neuron nuclear RNA
+longLabel neuron nuclear RNA
+genomesFile genomes.txt
+email mbrovkin@umich.edu

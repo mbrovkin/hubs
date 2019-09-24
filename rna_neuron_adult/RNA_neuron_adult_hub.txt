@@ -1,0 +1,5 @@
+hub hub1
+shortLabel RNA neuron adult
+longLabel RNA neuron adult
+genomesFile genomes.txt
+email mbrovkin@umich.edu
