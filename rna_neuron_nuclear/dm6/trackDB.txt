@@ -1,216 +1,40 @@
-track coll34983373
-aggregate none
-compositeTrack on
-autoScale on
-showSubtrackColorOnUi on
-priority 31
-customComposite on
-visibility full
-longLabel Fru-Intact labeled nuclei
-shortLabel Fru Nuclear RNA
-type mathWig
-maxHeightPixels 10000:30:11
-customized on
-color 116,128,0
-
-track ct_FruR1_6650_215d5d40
+track ct_FruR1
 shortLabel Fru_R1
 inputType bigWig
 origTrackLine track type="bigWig" name="Fru_R1" bigDataUrl="https://usegalaxy.org/display_application/bbd44e69cb8906b5668820a8bb9e4877/ucsc_bigwig/main/0fbe8f51c214ed3c/data/galaxy_bbd44e69cb8906b5668820a8bb9e4877.bigwig" db="dm6"
 name Fru_R1
-tdbType bigWig
-dataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5668820a8bb9e4877/ucsc_bigwig/main/0fbe8f51c214ed3c/param/track
-priority 32
 bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5668820a8bb9e4877/ucsc_bigwig/main/0fbe8f51c214ed3c/data/galaxy_bbd44e69cb8906b5668820a8bb9e4877.bigwig
-altColor 127,127,127
-parent coll34983373
-customized on
-color 0,0,0
+color 127,127,127
 description Fru_R1
 db dm6
 viewLimits 0.000000:16320.000000
 longLabel Fru_R1
 type bigWig
 
-track ct_FruR2_6651_215d5d40
+track ct_FruR2
 shortLabel Fru_R2
 inputType bigWig
 origTrackLine track type="bigWig" name="Fru_R2" bigDataUrl="https://usegalaxy.org/display_application/bbd44e69cb8906b5de1966613460b8e2/ucsc_bigwig/main/924eb8fc57ec9d3b/data/galaxy_bbd44e69cb8906b5de1966613460b8e2.bigwig" db="dm6"
 name Fru_R2
-tdbType bigWig
 dataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5de1966613460b8e2/ucsc_bigwig/main/924eb8fc57ec9d3b/param/track
-priority 33
 bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5de1966613460b8e2/ucsc_bigwig/main/924eb8fc57ec9d3b/data/galaxy_bbd44e69cb8906b5de1966613460b8e2.bigwig
-altColor 127,127,127
-parent coll34983373
-customized on
-color 0,0,0
+color 127,127,127
 description Fru_R2
 db dm6
 viewLimits 0.000000:15543.799805
 longLabel Fru_R2
 type bigWig
 
-track ct_FruR3_6652_215d5d40
+track ct_FruR3
 shortLabel Fru_R3
 inputType bigWig
 origTrackLine track type="bigWig" name="Fru_R3" bigDataUrl="https://usegalaxy.org/display_application/bbd44e69cb8906b5a0054621a51141a4/ucsc_bigwig/main/c87d478d0274023e/data/galaxy_bbd44e69cb8906b5a0054621a51141a4.bigwig" db="dm6"
 name Fru_R3
-tdbType bigWig
 dataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5a0054621a51141a4/ucsc_bigwig/main/c87d478d0274023e/param/track
-priority 34
 bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5a0054621a51141a4/ucsc_bigwig/main/c87d478d0274023e/data/galaxy_bbd44e69cb8906b5a0054621a51141a4.bigwig
-altColor 127,127,127
-parent coll34983373
-customized on
-color 0,0,0
+color 127,127,127
 description Fru_R3
 db dm6
 viewLimits 0.000000:16631.000000
 longLabel Fru_R3
 type bigWig
-
-track coll34983407
-aggregate none
-compositeTrack on
-autoScale on
-showSubtrackColorOnUi on
-priority 35
-customComposite on
-visibility full
-longLabel OK107 Intact labeled nuclei
-shortLabel OK107 Nuclear RNA
-type mathWig
-maxHeightPixels 10000:30:11
-customized on
-color 0,128,3
-
-track ct_OK107R1_5859_215d5d40
-shortLabel OK107_R1
-inputType bigWig
-origTrackLine track type="bigWig" name="OK107_R1" bigDataUrl="https://usegalaxy.org/display_application/bbd44e69cb8906b5258c99c2c86e628b/ucsc_bigwig/main/77294cfc22e5ab0a/data/galaxy_bbd44e69cb8906b5258c99c2c86e628b.bigwig" db="dm6"
-name OK107_R1
-tdbType bigWig
-dataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5258c99c2c86e628b/ucsc_bigwig/main/77294cfc22e5ab0a/param/track
-priority 36
-bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5258c99c2c86e628b/ucsc_bigwig/main/77294cfc22e5ab0a/data/galaxy_bbd44e69cb8906b5258c99c2c86e628b.bigwig
-altColor 127,127,127
-parent coll34983407
-customized on
-color 0,0,0
-description OK107_R1
-db dm6
-viewLimits 0.000000:20970.400391
-longLabel OK107_R1
-type bigWig
-
-track ct_OK107R2_5860_215d5d40
-shortLabel OK107_R2
-inputType bigWig
-origTrackLine track type="bigWig" name="OK107_R2" bigDataUrl="https://usegalaxy.org/display_application/bbd44e69cb8906b5735dbae7327722b9/ucsc_bigwig/main/35e7022b710cdfce/data/galaxy_bbd44e69cb8906b5735dbae7327722b9.bigwig" db="dm6"
-name OK107_R2
-tdbType bigWig
-dataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5735dbae7327722b9/ucsc_bigwig/main/35e7022b710cdfce/param/track
-priority 37
-bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5735dbae7327722b9/ucsc_bigwig/main/35e7022b710cdfce/data/galaxy_bbd44e69cb8906b5735dbae7327722b9.bigwig
-altColor 127,127,127
-parent coll34983407
-customized on
-color 0,0,0
-description OK107_R2
-db dm6
-viewLimits 0.000000:17694.900391
-longLabel OK107_R2
-type bigWig
-
-track ct_OK107R3_5861_215d5d40
-shortLabel OK107_R3
-inputType bigWig
-origTrackLine track type="bigWig" name="OK107_R3" bigDataUrl="https://usegalaxy.org/display_application/bbd44e69cb8906b55059f649ed1bbbc8/ucsc_bigwig/main/10b66293e375e825/data/galaxy_bbd44e69cb8906b55059f649ed1bbbc8.bigwig" db="dm6"
-name OK107_R3
-tdbType bigWig
-dataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b55059f649ed1bbbc8/ucsc_bigwig/main/10b66293e375e825/param/track
-priority 38
-bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b55059f649ed1bbbc8/ucsc_bigwig/main/10b66293e375e825/data/galaxy_bbd44e69cb8906b55059f649ed1bbbc8.bigwig
-altColor 127,127,127
-parent coll34983407
-customized on
-color 0,0,0
-description OK107_R3
-db dm6
-viewLimits 0.000000:17041.699219
-longLabel OK107_R3
-type bigWig
-
-track coll34983438
-aggregate none
-compositeTrack on
-autoScale on
-showSubtrackColorOnUi on
-priority 39
-customComposite on
-visibility full
-longLabel ELAV Intact labeled nuclei
-shortLabel ELAV Nuclear RNA
-type mathWig
-maxHeightPixels 10000:30:11
-customized on
-color 0,128,99
-
-track ct_ELAVR1_7292_215d5d40
-shortLabel ELAV_R1
-inputType bigWig
-origTrackLine track type="bigWig" name="ELAV_R1" bigDataUrl="https://usegalaxy.org/display_application/bbd44e69cb8906b5ea235e3b8b67af63/ucsc_bigwig/main/4f11b108c2af2d55/data/galaxy_bbd44e69cb8906b5ea235e3b8b67af63.bigwig" db="dm6"
-name ELAV_R1
-tdbType bigWig
-dataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5ea235e3b8b67af63/ucsc_bigwig/main/4f11b108c2af2d55/param/track
-priority 40
-bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5ea235e3b8b67af63/ucsc_bigwig/main/4f11b108c2af2d55/data/galaxy_bbd44e69cb8906b5ea235e3b8b67af63.bigwig
-altColor 127,127,127
-parent coll34983438
-customized on
-color 0,0,0
-description ELAV_R1
-db dm6
-viewLimits 0.000000:15582.799805
-longLabel ELAV_R1
-type bigWig
-
-track ct_ELAVR2_7293_215d5d40
-shortLabel ELAV_R2
-inputType bigWig
-origTrackLine track type="bigWig" name="ELAV_R2" bigDataUrl="https://usegalaxy.org/display_application/bbd44e69cb8906b584bfc63ca5422706/ucsc_bigwig/main/ca9d5648a4d8c9ad/data/galaxy_bbd44e69cb8906b584bfc63ca5422706.bigwig" db="dm6"
-name ELAV_R2
-tdbType bigWig
-dataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b584bfc63ca5422706/ucsc_bigwig/main/ca9d5648a4d8c9ad/param/track
-priority 41
-bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b584bfc63ca5422706/ucsc_bigwig/main/ca9d5648a4d8c9ad/data/galaxy_bbd44e69cb8906b584bfc63ca5422706.bigwig
-altColor 127,127,127
-parent coll34983438
-customized on
-color 0,0,0
-description ELAV_R2
-db dm6
-viewLimits 0.000000:16367.099609
-longLabel ELAV_R2
-type bigWig
-
-track ct_ELAVR3_7294_215d5d40
-shortLabel ELAV_R3
-inputType bigWig
-origTrackLine track type="bigWig" name="ELAV_R3" bigDataUrl="https://usegalaxy.org/display_application/bbd44e69cb8906b57be09f7e2ea1f398/ucsc_bigwig/main/b2916e08a38951a4/data/galaxy_bbd44e69cb8906b57be09f7e2ea1f398.bigwig" db="dm6"
-name ELAV_R3
-tdbType bigWig
-dataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b57be09f7e2ea1f398/ucsc_bigwig/main/b2916e08a38951a4/param/track
-priority 42
-bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b57be09f7e2ea1f398/ucsc_bigwig/main/b2916e08a38951a4/data/galaxy_bbd44e69cb8906b57be09f7e2ea1f398.bigwig
-altColor 127,127,127
-parent coll34983438
-customized on
-color 0,0,0
-description ELAV_R3
-db dm6
-viewLimits 0.000000:26634.000000
-longLabel ELAV_R3
-type bigWig
-
