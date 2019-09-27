@@ -1,62 +1,122 @@
-track FruR1
-bigDataUrl Fru_R1.bigwig
-shortLabel Fru_R1
-longLabel Fru_R1
-type bigWig
-color 230, 159, 0
+track nuc_neuron
+shortLabel Super track
+longLabel Super track
+type superTrack
+superTrack on
 
-track FruR2
-bigDataUrl Fru_R2.bigwig
-shortLabel Fru_R2
-longLabel Fru_R2
+track Fru
+shortLabel Fruitless
+longLabel Fruitless
 type bigWig
-color 230, 159, 0
+aggregate transparentOverlay
+maxHeightPixels 8:80:128
+parent nuc_neuron
+showSubtrackColorOnUi on
+viewLimits 0:200
+visibility full
+container multiWig
 
-track FruR3
-bigDataUrl Fru_R3.bigwig
-shortLabel Fru_R3
-longLabel Fru_R3
-type bigWig
-color 230, 159, 0
+	track FruR1
+	bigDataUrl Fru_R1.bigwig
+	shortLabel Fru_R1
+	longLabel Fru_R1
+	type bigWig
+	color 230, 159, 0
+	parent Fru
+	visibility full
 
-track OK107R1
-bigDataUrl OK107_R1.bigwig
-shortLabel OK107_R1
-longLabel OK107_R1
-type bigWig
-color 127,127,127
+	track FruR2
+	bigDataUrl Fru_R2.bigwig
+	shortLabel Fru_R2
+	longLabel Fru_R2
+	type bigWig
+	color 230, 159, 0
+	parent Fru
+	visibility full
 
-track OK107R2
-bigDataUrl OK107_R2.bigwig
-shortLabel OK107_R2
-longLabel OK107_R2
-type bigWig
-color 127,127,127
+	track FruR3
+	bigDataUrl Fru_R3.bigwig
+	shortLabel Fru_R3
+	longLabel Fru_R3
+	type bigWig
+	color 230, 159, 0
+	parent Fru
+	visibility full
 
-track OK107R3
-bigDataUrl OK107_R3.bigwig
-shortLabel OK107_R3
-longLabel OK107_R3
-type bigWig
-color 127,127,127
 
-track ELAVR1
-bigDataUrl ELAV_R1.bigwig
-shortLabel ELAV_R1
-longLabel ELAV_R1
+track OK107
+shortLabel Kenyon Cell
+longLabel Kenyon Cell
 type bigWig
-color 127,127,127
+aggregate transparentOverlay
+maxHeightPixels 8:80:128
+parent nuc_neuron
+showSubtrackColorOnUi on
+viewLimits 0:200
+visibility full
+container multiWig
 
-track ELAVR2
-bigDataUrl ELAV_R2.bigwig
-shortLabel ELAV_R2
-longLabel ELAV_R2
-type bigWig
-color 127,127,127
+	track OK107R1
+	bigDataUrl OK107_R1.bigwig
+	shortLabel OK107_R1
+	longLabel OK107_R1
+	type bigWig
+	color 127,127,127
+	parent OK107
+	visibility full
 
-track ELAVR3
-bigDataUrl ELAV_R3.bigwig
-shortLabel ELAV_R3
-longLabel ELAV_R3
+	track OK107R2
+	bigDataUrl OK107_R2.bigwig
+	shortLabel OK107_R2
+	longLabel OK107_R2
+	type bigWig
+	color 127,127,127
+	visibility full
+
+	track OK107R3
+	bigDataUrl OK107_R3.bigwig
+	shortLabel OK107_R3
+	longLabel OK107_R3
+	type bigWig
+	color 127,127,127
+	parent OK107
+	visibility full
+
+track ELAV
+shortLabel All Neurons
+longLabel All Neurons
 type bigWig
-color 127,127,127
+aggregate transparentOverlay
+maxHeightPixels 8:80:128
+parent nuc_neuron
+showSubtrackColorOnUi on
+viewLimits 0:200
+visibility full
+container multiWig
+
+	track ELAVR1
+	bigDataUrl ELAV_R1.bigwig
+	shortLabel ELAV_R1
+	longLabel ELAV_R1
+	type bigWig
+	color 127,127,127
+	parent ELAV
+	visibility full
+
+	track ELAVR2
+	bigDataUrl ELAV_R2.bigwig
+	shortLabel ELAV_R2
+	longLabel ELAV_R2
+	type bigWig
+	color 127,127,127
+	parent ELAV
+	visibility full
+
+	track ELAVR3
+	bigDataUrl ELAV_R3.bigwig
+	shortLabel ELAV_R3
+	longLabel ELAV_R3
+	type bigWig
+	color 127,127,127
+	parent ELAV
+	visibility full
