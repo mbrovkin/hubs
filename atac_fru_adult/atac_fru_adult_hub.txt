@@ -1,5 +1,0 @@
-hub hub1
-shortLabel fru ATAC adult
-longLabel fruitless ATAC adult
-genomesFile genomes.txt
-email mbrovkin@umich.edu

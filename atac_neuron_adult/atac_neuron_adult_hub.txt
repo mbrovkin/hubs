@@ -1,5 +1,0 @@
-hub hub1
-shortLabel neuron ATAC adult
-longLabel neuron ATAC adult
-genomesFile genomes.txt
-email mbrovkin@umich.edu
