@@ -3,21 +3,21 @@ bigDataUrl Fru_R1.bigwig
 shortLabel Fru_R1
 longLabel Fru_R1
 type bigWig
-color 127,127,127
+color 230, 159, 0
 
 track FruR2
 bigDataUrl Fru_R2.bigwig
 shortLabel Fru_R2
 longLabel Fru_R2
 type bigWig
-color 127,127,127
+color 230, 159, 0
 
 track FruR3
 bigDataUrl Fru_R3.bigwig
 shortLabel Fru_R3
 longLabel Fru_R3
 type bigWig
-color 127,127,127
+color 230, 159, 0
 
 track OK107R1
 bigDataUrl OK107_R1.bigwig
