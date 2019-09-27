@@ -4,8 +4,6 @@ shortLabel Fru_R1
 longLabel Fru_R1
 type bigWig
 color 127,127,127
-viewLimits 0:200
-visibility full
 
 track FruR2
 bigDataUrl Fru_R2.bigwig
@@ -13,8 +11,6 @@ shortLabel Fru_R2
 longLabel Fru_R2
 type bigWig
 color 127,127,127
-viewLimits 0:200
-visibility full
 
 track FruR3
 bigDataUrl Fru_R3.bigwig
@@ -22,8 +18,6 @@ shortLabel Fru_R3
 longLabel Fru_R3
 type bigWig
 color 127,127,127
-viewLimits 0:200
-visibility full
 
 track OK107R1
 bigDataUrl OK107_R1.bigwig
@@ -31,8 +25,6 @@ shortLabel OK107_R1
 longLabel OK107_R1
 type bigWig
 color 127,127,127
-viewLimits 0:200
-visibility full
 
 track OK107R2
 bigDataUrl OK107_R2.bigwig
@@ -40,8 +32,6 @@ shortLabel OK107_R2
 longLabel OK107_R2
 type bigWig
 color 127,127,127
-viewLimits 0:200
-visibility full
 
 track OK107R3
 bigDataUrl OK107_R3.bigwig
@@ -49,8 +39,6 @@ shortLabel OK107_R3
 longLabel OK107_R3
 type bigWig
 color 127,127,127
-viewLimits 0:200
-visibility full
 
 track ELAVR1
 bigDataUrl ELAV_R1.bigwig
@@ -58,8 +46,6 @@ shortLabel ELAV_R1
 longLabel ELAV_R1
 type bigWig
 color 127,127,127
-viewLimits 0:200
-visibility full
 
 track ELAVR2
 bigDataUrl ELAV_R2.bigwig
@@ -67,8 +53,6 @@ shortLabel ELAV_R2
 longLabel ELAV_R2
 type bigWig
 color 127,127,127
-viewLimits 0:200
-visibility full
 
 track ELAVR3
 bigDataUrl ELAV_R3.bigwig
@@ -76,5 +60,3 @@ shortLabel ELAV_R3
 longLabel ELAV_R3
 type bigWig
 color 127,127,127
-viewLimits 0:200
-visibility full
