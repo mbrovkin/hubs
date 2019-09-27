@@ -1,5 +1,5 @@
 track FruR1
-bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5668820a8bb9e4877/ucsc_bigwig/main/0fbe8f51c214ed3c/data/galaxy_bbd44e69cb8906b5668820a8bb9e4877.bigwig
+bigDataUrl Fru_R1.bigwig
 shortLabel Fru_R1
 longLabel Fru_R1
 type bigWig
@@ -8,7 +8,7 @@ viewLimits 0:200
 visibility full
 
 track FruR2
-bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5de1966613460b8e2/ucsc_bigwig/main/924eb8fc57ec9d3b/data/galaxy_bbd44e69cb8906b5de1966613460b8e2.bigwig
+bigDataUrl Fru_R2.bigwig
 shortLabel Fru_R2
 longLabel Fru_R2
 type bigWig
@@ -17,7 +17,7 @@ viewLimits 0:200
 visibility full
 
 track FruR3
-bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5a0054621a51141a4/ucsc_bigwig/main/c87d478d0274023e/data/galaxy_bbd44e69cb8906b5a0054621a51141a4.bigwig
+bigDataUrl Fru_R3.bigwig
 shortLabel Fru_R3
 longLabel Fru_R3
 type bigWig
@@ -26,7 +26,7 @@ viewLimits 0:200
 visibility full
 
 track OK107R1
-bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5258c99c2c86e628b/ucsc_bigwig/main/77294cfc22e5ab0a/data/galaxy_bbd44e69cb8906b5258c99c2c86e628b.bigwig
+bigDataUrl OK107_R1.bigwig
 shortLabel OK107_R1
 longLabel OK107_R1
 type bigWig
@@ -35,7 +35,7 @@ viewLimits 0:200
 visibility full
 
 track OK107R2
-bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5735dbae7327722b9/ucsc_bigwig/main/35e7022b710cdfce/data/galaxy_bbd44e69cb8906b5735dbae7327722b9.bigwig
+bigDataUrl OK107_R2.bigwig
 shortLabel OK107_R2
 longLabel OK107_R2
 type bigWig
@@ -44,7 +44,7 @@ viewLimits 0:200
 visibility full
 
 track OK107R3
-bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b55059f649ed1bbbc8/ucsc_bigwig/main/10b66293e375e825/data/galaxy_bbd44e69cb8906b55059f649ed1bbbc8.bigwig
+bigDataUrl OK107_R3.bigwig
 shortLabel OK107_R3
 longLabel OK107_R3
 type bigWig
@@ -53,7 +53,7 @@ viewLimits 0:200
 visibility full
 
 track ELAVR1
-bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5ea235e3b8b67af63/ucsc_bigwig/main/4f11b108c2af2d55/data/galaxy_bbd44e69cb8906b5ea235e3b8b67af63.bigwig
+bigDataUrl ELAV_R1.bigwig
 shortLabel ELAV_R1
 longLabel ELAV_R1
 type bigWig
@@ -62,7 +62,7 @@ viewLimits 0:200
 visibility full
 
 track ELAVR2
-bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b584bfc63ca5422706/ucsc_bigwig/main/ca9d5648a4d8c9ad/data/galaxy_bbd44e69cb8906b584bfc63ca5422706.bigwig
+bigDataUrl ELAV_R2.bigwig
 shortLabel ELAV_R2
 longLabel ELAV_R2
 type bigWig
@@ -71,7 +71,7 @@ viewLimits 0:200
 visibility full
 
 track ELAVR3
-bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b57be09f7e2ea1f398/ucsc_bigwig/main/b2916e08a38951a4/data/galaxy_bbd44e69cb8906b57be09f7e2ea1f398.bigwig
+bigDataUrl ELAV_R3.bigwig
 shortLabel ELAV_R3
 longLabel ELAV_R3
 type bigWig
