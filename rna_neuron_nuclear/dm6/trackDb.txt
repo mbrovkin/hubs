@@ -49,7 +49,7 @@ shortLabel Kenyon Cell
 longLabel Kenyon Cell
 type bigWig
 aggregate transparentOverlay
-maxHeightPixels 8:80:128
+maxHeightPixels 100:30:8
 parent nuc_neuron
 showSubtrackColorOnUi on
 viewLimits 0:200
@@ -88,7 +88,7 @@ shortLabel All Neurons
 longLabel All Neurons
 type bigWig
 aggregate transparentOverlay
-maxHeightPixels 8:80:128
+maxHeightPixels 100:30:8
 parent nuc_neuron
 showSubtrackColorOnUi on
 viewLimits 0:200
