@@ -2,7 +2,7 @@ track Fru_Nuc_RNA
 shortLabel Fru RNA
 longLabel Fruitless Nuclear RNA
 type superTrack
-superTrack on
+superTrack on show
 
 track Fru
 shortLabel Fruitless
@@ -48,7 +48,7 @@ track OK107_Nuc_RNA
 shortLabel OK107 RNA
 longLabel OK107 Nuclear RNA
 type superTrack
-superTrack on
+superTrack on show
 
 track OK107
 shortLabel Kenyon Cell
@@ -93,7 +93,7 @@ track ELAV_Nuc_RNA
 shortLabel ELAV RNA
 longLabel ELAV Nuclear RNA
 type superTrack
-superTrack on
+superTrack on show
 
 track ELAV
 shortLabel All Neurons
