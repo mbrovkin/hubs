@@ -1,6 +1,6 @@
-track nuc_neuron
-shortLabel Super track
-longLabel Super track
+track Fru_Nuc_RNA
+shortLabel Fru RNA
+longLabel Fruitless Nuclear RNA
 type superTrack
 superTrack on
 
@@ -9,7 +9,7 @@ shortLabel Fruitless
 longLabel Fruitless
 type bigWig
 aggregate transparentOverlay
-parent nuc_neuron
+parent Fru_Nuc_RNA
 showSubtrackColorOnUi on
 viewLimits 0:300
 maxHeightPixels 100:30:8
@@ -44,12 +44,18 @@ container multiWig
 	visibility full
 
 
+track OK107_Nuc_RNA
+shortLabel OK107 RNA
+longLabel OK107 Nuclear RNA
+type superTrack
+superTrack on
+
 track OK107
 shortLabel Kenyon Cell
 longLabel Kenyon Cell
 type bigWig
 aggregate transparentOverlay
-parent nuc_neuron
+parent OK107_Nuc_RNA
 showSubtrackColorOnUi on
 viewLimits 0:300
 maxHeightPixels 100:30:8
@@ -83,12 +89,18 @@ container multiWig
 	parent OK107
 	visibility full
 
+track ELAV_Nuc_RNA
+shortLabel ELAV RNA
+longLabel ELAV Nuclear RNA
+type superTrack
+superTrack on
+
 track ELAV
 shortLabel All Neurons
 longLabel All Neurons
 type bigWig
 aggregate transparentOverlay
-parent nuc_neuron
+parent ELAV_Nuc_RNA
 showSubtrackColorOnUi on
 viewLimits 0:300
 maxHeightPixels 100:30:8
