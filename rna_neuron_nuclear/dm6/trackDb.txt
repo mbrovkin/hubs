@@ -9,7 +9,7 @@ shortLabel Fruitless
 longLabel Fruitless
 type bigWig
 aggregate transparentOverlay
-parent Fru_Nuc_RNA
+parent Fru_Nuc_RNA on
 showSubtrackColorOnUi on
 viewLimits 0:300
 maxHeightPixels 100:30:8
@@ -55,7 +55,7 @@ shortLabel Kenyon Cell
 longLabel Kenyon Cell
 type bigWig
 aggregate transparentOverlay
-parent OK107_Nuc_RNA
+parent OK107_Nuc_RNA on
 showSubtrackColorOnUi on
 viewLimits 0:300
 maxHeightPixels 100:30:8
@@ -100,7 +100,7 @@ shortLabel All Neurons
 longLabel All Neurons
 type bigWig
 aggregate transparentOverlay
-parent ELAV_Nuc_RNA
+parent ELAV_Nuc_RNA on
 showSubtrackColorOnUi on
 viewLimits 0:300
 maxHeightPixels 100:30:8
