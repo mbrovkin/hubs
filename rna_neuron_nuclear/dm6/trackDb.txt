@@ -12,7 +12,7 @@ aggregate transparentOverlay
 parent Fru_Nuc_RNA on
 showSubtrackColorOnUi on
 viewLimits 0:300
-maxHeightPixels 100:30:8
+maxHeightPixels 128:30:8
 visibility full
 container multiWig
 
@@ -58,7 +58,7 @@ aggregate transparentOverlay
 parent OK107_Nuc_RNA on
 showSubtrackColorOnUi on
 viewLimits 0:300
-maxHeightPixels 100:30:8
+maxHeightPixels 128:30:8
 visibility full
 container multiWig
 
@@ -68,7 +68,7 @@ container multiWig
 	longLabel OK107_R1
 	type bigWig
 	color 204, 121, 167
-	parent OK107
+	parent OK107 on
 	visibility full
 
 	track OK107R2
@@ -77,7 +77,7 @@ container multiWig
 	longLabel OK107_R2
 	type bigWig
 	color 204, 121, 167
-	parent OK107
+	parent OK107 on
 	visibility full
 
 	track OK107R3
@@ -86,7 +86,7 @@ container multiWig
 	longLabel OK107_R3
 	type bigWig
 	color 204, 121, 167
-	parent OK107
+	parent OK107 on
 	visibility full
 
 track ELAV_Nuc_RNA
@@ -103,7 +103,7 @@ aggregate transparentOverlay
 parent ELAV_Nuc_RNA on
 showSubtrackColorOnUi on
 viewLimits 0:300
-maxHeightPixels 100:30:8
+maxHeightPixels 128:30:8
 visibility full
 container multiWig
 
@@ -113,7 +113,7 @@ container multiWig
 	longLabel ELAV_R1
 	type bigWig
 	color 86, 180, 233
-	parent ELAV
+	parent ELAV on
 	visibility full
 
 	track ELAVR2
@@ -122,7 +122,7 @@ container multiWig
 	longLabel ELAV_R2
 	type bigWig
 	color 86, 180, 233
-	parent ELAV
+	parent ELAV on
 	visibility full
 
 	track ELAVR3
@@ -131,5 +131,5 @@ container multiWig
 	longLabel ELAV_R3
 	type bigWig
 	color 86, 180, 233
-	parent ELAV
+	parent ELAV on
 	visibility full
