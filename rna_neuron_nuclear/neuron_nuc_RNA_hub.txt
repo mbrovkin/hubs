@@ -1,5 +1,5 @@
 hub hub1
-shortLabel neuron nuclear RNA
-longLabel neuron nuclear RNA
+shortLabel Neuronal Nuclear RNA
+longLabel Nuclear RNA Profiles from Shapiro et al. 2019
 genomesFile genomes.txt
 email mbrovkin@umich.edu
