@@ -22,7 +22,7 @@ container multiWig
 	longLabel Fru_R1
 	type bigWig
 	color 230, 159, 0
-	parent Fru
+	parent Fru on
 	visibility full
 
 	track FruR2
@@ -31,7 +31,7 @@ container multiWig
 	longLabel Fru_R2
 	type bigWig
 	color 230, 159, 0
-	parent Fru
+	parent Fru on
 	visibility full
 
 	track FruR3
@@ -40,7 +40,7 @@ container multiWig
 	longLabel Fru_R3
 	type bigWig
 	color 230, 159, 0
-	parent Fru
+	parent Fru on
 	visibility full
 
 
