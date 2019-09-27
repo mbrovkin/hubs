@@ -39,24 +39,3 @@ shortLabel OK107_R3
 longLabel OK107_R3
 type bigWig
 color 127,127,127
-
-track ELAVR1
-bigDataUrl ELAV_R1.bigwig
-shortLabel ELAV_R1
-longLabel ELAV_R1
-type bigWig
-color 127,127,127
-
-track ELAVR2
-bigDataUrl ELAV_R2.bigwig
-shortLabel ELAV_R2
-longLabel ELAV_R2
-type bigWig
-color 127,127,127
-
-track ELAVR3
-bigDataUrl ELAV_R3.bigwig
-shortLabel ELAV_R3
-longLabel ELAV_R3
-type bigWig
-color 127,127,127
