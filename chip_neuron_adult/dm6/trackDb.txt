@@ -4,8 +4,9 @@ longLabel Neuron Histone Profiles
 type bigWig
 compositeTrack on
 visibility full
-subGroup1 cell Cell_Type TDC2=TDC2 OK107=OK107 R57C10=R57C10
-subGroup2 ab Antibody input=input H3K4me3=H3K4me3 H3K27ac=H3K27ac H3K27me3=H3K27me3
+subGroup1 view Views signal=signal
+subGroup2 cell Cell_Type TDC2=TDC2 OK107=OK107 R57C10=R57C10
+subGroup3 ab Antibody input=input H3K4me3=H3K4me3 H3K27ac=H3K27ac H3K27me3=H3K27me3
 dimensions dimX=ab dimY=cell
 sortOrder cell=+ ab=+ 
 
@@ -23,7 +24,7 @@ sortOrder cell=+ ab=+
 		longLabel TDC2-input
 		type bigWig
 		parent TDC2 on
-		subGroups cell=TDC2 ab=input
+		subGroups view=signal cell=TDC2 ab=input
 		color 230, 159, 0
 		visibility full
 		maxHeightPixels 8:30:128
@@ -41,7 +42,7 @@ sortOrder cell=+ ab=+
 		longLabel OK107-input
 		type bigWig
 		parent OK107 on
-		subGroups cell=OK107 ab=input
+		subGroups view=signal cell=OK107 ab=input
 		color 204, 121, 167
 		visibility full
 		maxHeightPixels 8:30:128
@@ -59,7 +60,7 @@ sortOrder cell=+ ab=+
 		longLabel R57C10-input
 		type bigWig
 		parent R57C10 on
-		subGroups cell=R57C10 ab=input
+		subGroups view=signal cell=R57C10 ab=input
 		color 86, 180, 233
 		visibility full
 		maxHeightPixels 8:30:128
