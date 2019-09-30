@@ -16,7 +16,6 @@ type bigWig
 	visibility full
 	viewLimits 0:10
 	type bigWig
-        viewUi on
 
 		track TDC2_input
 		bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5bf2a5d352d6aa4d5/ucsc_bigwig/main/1ed55ca6689e807f/data/galaxy_bbd44e69cb8906b5bf2a5d352d6aa4d5.bigwig
@@ -34,7 +33,6 @@ type bigWig
 	longLabel Kenyon Cells
 	visibility full
 	type bigWig
-        viewUi on
 
 		track OK107_input
 		bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5a9240e6a9559a55b/ucsc_bigwig/main/024edb41419ce368/data/galaxy_bbd44e69cb8906b5a9240e6a9559a55b.bigwig
@@ -52,7 +50,6 @@ type bigWig
 	longLabel All Neurons
 	visibility full
 	type bigWig
-        viewUi on
 
 		track R57C10_input
 		bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b53169ce8c334aae47/ucsc_bigwig/main/30dd3f5dd351fe32/data/galaxy_bbd44e69cb8906b53169ce8c334aae47.bigwig
