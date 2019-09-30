@@ -19,11 +19,12 @@ type bigWig
 		track TDC2_input
 		bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5bf2a5d352d6aa4d5/ucsc_bigwig/main/1ed55ca6689e807f/data/galaxy_bbd44e69cb8906b5bf2a5d352d6aa4d5.bigwig
 		shortLabel TDC2-input
+		longLabel TDC2-input
+		type bigWig
 		parent TDC2 on
 		subGroups cell=TDC2 ab=input
 		color 230, 159, 0
 		visibility full
-		type bigWig
 		maxHeightPixels 8:30:128
 
 	track OK107
@@ -36,11 +37,12 @@ type bigWig
 		track OK107_input
 		bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5a9240e6a9559a55b/ucsc_bigwig/main/024edb41419ce368/data/galaxy_bbd44e69cb8906b5a9240e6a9559a55b.bigwig
 		shortLabel OK107-input
+		longLabel OK107-input
+		type bigWig
 		parent OK107 on
 		subGroups cell=OK107 ab=input
 		color 204, 121, 167
 		visibility full
-		type bigWig
 		maxHeightPixels 8:30:128
 
 	track R57C10
@@ -53,9 +55,10 @@ type bigWig
 		track R57C10_input
 		bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b53169ce8c334aae47/ucsc_bigwig/main/30dd3f5dd351fe32/data/galaxy_bbd44e69cb8906b53169ce8c334aae47.bigwig
 		shortLabel R57C10-input
+		longLabel R57C10-input
+		type bigWig
 		parent R57C10 on
 		subGroups cell=R57C10 ab=input
 		color 86, 180, 233
 		visibility full
-		type bigWig
 		maxHeightPixels 8:30:128
