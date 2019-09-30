@@ -1,5 +1,5 @@
 hub hub2
-shortLabel Neuronal Histone Profiles
-longLabel Neuronal Histone Profiles from Henry et al. 2012
+shortLabel Neuron Histone Profiles
+longLabel Neuron Histone Profiles from Henry et al. 2012
 genomesFile genomes.txt
 email mbrovkin@umich.edu
