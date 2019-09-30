@@ -23,8 +23,8 @@ type bigWig
 		subGroups cell=TDC2 ab=input
 		color 230, 159, 0
 		visibility full
-		viewLimits 0:10
 		type bigWig
+		maxHeightPixels 8:30:128
 
 	track OK107
 	parent ChIP on
@@ -40,8 +40,8 @@ type bigWig
 		subGroups cell=OK107 ab=input
 		color 204, 121, 167
 		visibility full
-		viewLimits 0:10
 		type bigWig
+		maxHeightPixels 8:30:128
 
 	track R57C10
 	parent ChIP on
@@ -57,5 +57,5 @@ type bigWig
 		subGroups cell=R57C10 ab=input
 		color 86, 180, 233
 		visibility full
-		viewLimits 0:10
 		type bigWig
+		maxHeightPixels 8:30:128
