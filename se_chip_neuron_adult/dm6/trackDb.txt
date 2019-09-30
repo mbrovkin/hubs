@@ -10,7 +10,7 @@ sortOrder cell=+ ab=-
 type bigWig
 
 	track TDC2
-	parent se_chip on
+	parent ChIP on
 	shortLabel TDC2
 	longLabel Octopaminergic Neurons
 	visibility full
@@ -29,11 +29,10 @@ type bigWig
 		type bigWig
 
 	track OK107
-	parent se_chip on
+	parent ChIP on
 	shortLabel OK107
 	longLabel Kenyon Cells
 	visibility full
-	viewLimits 0:10
 	type bigWig
         viewUi on
 
@@ -48,7 +47,7 @@ type bigWig
 		type bigWig
 
 	track R57C10
-	parent se_chip
+	parent ChIP on
 	shortLabel R57C10
 	longLabel All Neurons
 	visibility full
