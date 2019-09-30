@@ -1,0 +1,62 @@
+track se_chip
+compositeTrack on
+visibility full
+subGroup1 cell Cell_Type TDC2 OK107 R57C10
+subGroup2 ab Antibody input H3K4me3 H3K27ac H3K27me3
+dimensions dimX=ab dimY=cell
+sortOrder cell=+ ab=- 
+type bigWig
+
+	track TDC2
+	parent se_chip on
+	shortLabel TDC2
+	longLabel Octopaminergic Neurons
+	visibility full
+	viewLimits 0:10
+	type bigWig
+        viewUi on
+
+		track TDC2-input
+		bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5bf2a5d352d6aa4d5/ucsc_bigwig/main/1ed55ca6689e807f/data/galaxy_bbd44e69cb8906b5bf2a5d352d6aa4d5.bigwig
+		shortLabel
+		parent TDC2 on
+		subGroups cell=TDC2 ab=input
+		color 230, 159, 0
+		visibility full
+		viewLimits 0:10
+		type bigWig
+
+	track OK107
+	parent se_chip on
+	shortLabel OK107
+	longLabel Kenyon Cells
+	visibility full
+	viewLimits 0:10
+	type bigWig
+        viewUi on
+
+		track OK107-input
+		bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5a9240e6a9559a55b/ucsc_bigwig/main/024edb41419ce368/data/galaxy_bbd44e69cb8906b5a9240e6a9559a55b.bigwig
+		parent OK107 on
+		subGroups cell=OK107 ab=input
+		color 204, 121, 167
+		visibility full
+		viewLimits 0:10
+		type bigWig
+
+	track R57C10
+	parent se_chip
+	shortLabel R57C10
+	longLabel All Neurons
+	visibility full
+	type bigWig
+        viewUi on
+
+		track R57C10-input
+		bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b53169ce8c334aae47/ucsc_bigwig/main/30dd3f5dd351fe32/data/galaxy_bbd44e69cb8906b53169ce8c334aae47.bigwig
+		parent R57C10 on
+		subGroups cell=R57C10 ab=input
+		color 86, 180, 233
+		visibility full
+		viewLimits 0:10
+		type bigWig
