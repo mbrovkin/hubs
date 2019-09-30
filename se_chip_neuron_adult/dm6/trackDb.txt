@@ -1,13 +1,14 @@
 track ChIP
 shortLabel Histone Profiles
 longLabel Neuron Histone Profiles
+type bigWig
 compositeTrack on
 visibility full
-subGroup1 cell Cell_Type TDC2 OK107 R57C10
-subGroup2 ab Antibody input H3K4me3 H3K27ac H3K27me3
+subGroup1 cell Cell_Type TDC2=TDC2 OK107=OK107 R57C10=R57C10
+subGroup2 ab Antibody input=input H3K4me3=H3K4me3 H3K27ac=H3K27ac H3K27me3=H3K27me3
 dimensions dimX=ab dimY=cell
-sortOrder cell=+ ab=- 
-type bigWig
+sortOrder cell=+ ab=+ 
+
 
 	track TDC2
 	parent ChIP on
