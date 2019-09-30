@@ -18,7 +18,6 @@ type bigWig
 
 		track TDC2-input
 		bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5bf2a5d352d6aa4d5/ucsc_bigwig/main/1ed55ca6689e807f/data/galaxy_bbd44e69cb8906b5bf2a5d352d6aa4d5.bigwig
-		shortLabel
 		parent TDC2 on
 		subGroups cell=TDC2 ab=input
 		color 230, 159, 0
