@@ -1,4 +1,6 @@
 track se_chip
+shortLabel Neuron Histone Profiles
+longLabel Neuron Histone Profiles
 compositeTrack on
 visibility full
 subGroup1 cell Cell_Type TDC2 OK107 R57C10
