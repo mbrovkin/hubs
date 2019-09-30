@@ -1,5 +1,5 @@
-track se_chip
-shortLabel Neuron Histone Profiles
+track ChIP
+shortLabel Histone Profiles
 longLabel Neuron Histone Profiles
 compositeTrack on
 visibility full
