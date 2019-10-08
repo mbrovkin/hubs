@@ -28,7 +28,7 @@ compositeTrack on show
 		viewLimits 0:10
 		color 230, 159, 0
 		maxHeightPixels 8:30:128
-		subGroups view=signal cell=TDC2 ab=input
+		subGroups view=signal cell=BTDC2 ab=input
 
 		track TDC2_H3K4me3
 		bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5d05eaf692d98e491/ucsc_bigwig/main/ed39aa57270b1a3c/data/galaxy_bbd44e69cb8906b5d05eaf692d98e491.bigwig
@@ -40,7 +40,7 @@ compositeTrack on show
 		viewLimits 0:10
 		color 230, 159, 0
 		maxHeightPixels 8:30:128
-		subGroups view=signal cell=TDC2 ab=H3K4me3
+		subGroups view=signal cell=BTDC2 ab=H3K04me3
 
 		track TDC2_H3K27ac
 		bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b57615e855628a5033/ucsc_bigwig/main/8ef7650685c705a7/data/galaxy_bbd44e69cb8906b57615e855628a5033.bigwig
@@ -52,7 +52,7 @@ compositeTrack on show
 		viewLimits 0:10
 		color 230, 159, 0
 		maxHeightPixels 8:30:128
-		subGroups view=signal cell=TDC2 ab=H3K27ac
+		subGroups view=signal cell=BTDC2 ab=H3K27ac
 
 		track TDC2_H3K27me3_R1
 		bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5138e8263d52a0b4c/ucsc_bigwig/main/c442e8b9e3bdffe9/data/galaxy_bbd44e69cb8906b5138e8263d52a0b4c.bigwig
@@ -64,7 +64,7 @@ compositeTrack on show
 		viewLimits 0:10
 		color 230, 159, 0
 		maxHeightPixels 8:30:128
-		subGroups view=signal cell=TDC2 ab=H3K27me3
+		subGroups view=signal cell=BTDC2 ab=H3K27me3
 
 		track TDC2_H3K27me3_R2
 		bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5d3f1e6423c003cd3/ucsc_bigwig/main/c69cc5f4178fedfd/data/galaxy_bbd44e69cb8906b5d3f1e6423c003cd3.bigwig
@@ -76,7 +76,7 @@ compositeTrack on show
 		viewLimits 0:10
 		color 230, 159, 0
 		maxHeightPixels 8:30:128
-		subGroups view=signal cell=TDC2 ab=H3K27me3
+		subGroups view=signal cell=BTDC2 ab=H3K27me3
 	
 	track OK107_ChIP
 	shortLabel OK107 ChIP
@@ -96,7 +96,7 @@ compositeTrack on show
 		viewLimits 0:10
 		color 204, 121, 167
 		maxHeightPixels 8:30:128
-		subGroups view=signal cell=OK107 ab=input
+		subGroups view=signal cell=COK107 ab=input
 
 		track OK107_H3K4me3
 		bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b54b4b70243c8391c1/ucsc_bigwig/main/60e03588e2e06718/data/galaxy_bbd44e69cb8906b54b4b70243c8391c1.bigwig
@@ -108,7 +108,7 @@ compositeTrack on show
 		viewLimits 0:10
 		color 204, 121, 167
 		maxHeightPixels 8:30:128
-		subGroups view=signal cell=OK107 ab=H3K4me3
+		subGroups view=signal cell=COK107 ab=H3K04me3
 
 		track OK107_H3K27ac
 		bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5a72db1632fd80bb1/ucsc_bigwig/main/7f54f2309f7162db/data/galaxy_bbd44e69cb8906b5a72db1632fd80bb1.bigwig
@@ -120,7 +120,7 @@ compositeTrack on show
 		viewLimits 0:10
 		color 204, 121, 167
 		maxHeightPixels 8:30:128
-		subGroups view=signal cell=OK107 ab=H3K27ac
+		subGroups view=signal cell=COK107 ab=H3K27ac
 
 		track OK107_H3K27me3
 		bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b557adc34271c300ed/ucsc_bigwig/main/b19a9f5cb191946b/data/galaxy_bbd44e69cb8906b557adc34271c300ed.bigwig
@@ -132,7 +132,7 @@ compositeTrack on show
 		viewLimits 0:10
 		color 204, 121, 167
 		maxHeightPixels 8:30:128
-		subGroups view=signal cell=OK107 ab=H3K27me3
+		subGroups view=signal cell=COK107 ab=H3K27me3
 
 
 	track R57C10_ChIP
@@ -153,7 +153,7 @@ compositeTrack on show
 		viewLimits 0:10
 		color 86, 180, 233
 		maxHeightPixels 8:30:128
-		subGroups view=signal cell=R57C10 ab=input
+		subGroups view=signal cell=AR57C10 ab=input
 
 		track R57C10_H3K4me3
 		bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5755428a636f5b372/ucsc_bigwig/main/8d527d1191caa586/data/galaxy_bbd44e69cb8906b5755428a636f5b372.bigwig
@@ -165,7 +165,7 @@ compositeTrack on show
 		viewLimits 0:10
 		color 86, 180, 233
 		maxHeightPixels 8:30:128
-		subGroups view=signal cell=R57C10 ab=H3K4me3
+		subGroups view=signal cell=AR57C10 ab=H3K04me3
 
 		track R57C10_H3K27ac
 		bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5727890f5b3b34e4e/ucsc_bigwig/main/bf99c77c3f6b2f78/data/galaxy_bbd44e69cb8906b5727890f5b3b34e4e.bigwig
@@ -177,7 +177,7 @@ compositeTrack on show
 		viewLimits 0:10
 		color 86, 180, 233
 		maxHeightPixels 8:30:128
-		subGroups view=signal cell=R57C10 ab=H3K27ac
+		subGroups view=signal cell=AR57C10 ab=H3K27ac
 
 		track R57C10_H3K27me3
 		bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b50250c5db250b838b/ucsc_bigwig/main/a02f1046ecda856f/data/galaxy_bbd44e69cb8906b50250c5db250b838b.bigwig
@@ -189,4 +189,4 @@ compositeTrack on show
 		viewLimits 0:10
 		color 86, 180, 233
 		maxHeightPixels 8:30:128
-		subGroups view=signal cell=R57C10 ab=H3K27me3
+		subGroups view=signal cell=AR57C10 ab=H3K27me3
