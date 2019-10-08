@@ -5,7 +5,6 @@ subGroup1 view Views signal=signal
 subGroup2 cell Cell_Type TDC2=TDC2 OK107=OK107 R57C10=R57C10
 subGroup3 ab Antibody input=input H3K4me3=H3K4me3 H3K27ac=H3K27ac H3K27me3=H3K27me3
 dimensions dimX=ab dimY=cell
-filterComposite dimY
 sortOrder cell=+ ab=+ 
 type bigWig
 visibility full
