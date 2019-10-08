@@ -54,29 +54,42 @@ compositeTrack on show
 		maxHeightPixels 8:30:128
 		subGroups view=signal cell=TDC2 ab=H3K27ac
 
-		track TDC2_H3K27me3_R1
-		bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5138e8263d52a0b4c/ucsc_bigwig/main/c442e8b9e3bdffe9/data/galaxy_bbd44e69cb8906b5138e8263d52a0b4c.bigwig
-		shortLabel TDC2 H3K27me3 Rep1
-		longLabel TDC2 H3K27me3 Rep1
+		
+		track TDC2_H3K27me3
+		shortLabel TDC2 H3K27me3
+		longLabel TDC2 H3K27me3
 		type bigWig
-		parent TDC2_ChIP on show
-		visibility full
+		aggregate transparentOverlay
+		showSubtrackColorOnUi on
 		viewLimits 0:10
-		color 230, 159, 0
 		maxHeightPixels 8:30:128
-		subGroups view=signal cell=TDC2 ab=H3K27me3
+		visibility full
+		parent TDC2_ChIP on show
+		container multiWig
 
-		track TDC2_H3K27me3_R2
-		bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5d3f1e6423c003cd3/ucsc_bigwig/main/c69cc5f4178fedfd/data/galaxy_bbd44e69cb8906b5d3f1e6423c003cd3.bigwig
-		shortLabel TDC2 H3K27me3 Rep2
-		longLabel TDC2 H3K27me3 Rep2
-		type bigWig
-		parent TDC2_ChIP on show
-		visibility full
-		viewLimits 0:10
-		color 230, 159, 0
-		maxHeightPixels 8:30:128
-		subGroups view=signal cell=TDC2 ab=H3K27me3
+			track TDC2_H3K27me3_R1
+			bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5138e8263d52a0b4c/ucsc_bigwig/main/c442e8b9e3bdffe9/data/galaxy_bbd44e69cb8906b5138e8263d52a0b4c.bigwig
+			shortLabel TDC2 H3K27me3 Rep1
+			longLabel TDC2 H3K27me3 Rep1
+			type bigWig
+			parent TDC2_H3K27me3 on show
+			visibility full
+			viewLimits 0:10
+			color 230, 159, 0
+			maxHeightPixels 8:30:128
+			subGroups view=signal cell=TDC2 ab=H3K27me3
+
+			track TDC2_H3K27me3_R2
+			bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5d3f1e6423c003cd3/ucsc_bigwig/main/c69cc5f4178fedfd/data/galaxy_bbd44e69cb8906b5d3f1e6423c003cd3.bigwig
+			shortLabel TDC2 H3K27me3 Rep2
+			longLabel TDC2 H3K27me3 Rep2
+			type bigWig
+			parent TDC2_H3K27me3 on show
+			visibility full
+			viewLimits 0:10
+			color 230, 159, 0
+			maxHeightPixels 8:30:128
+			subGroups view=signal cell=TDC2 ab=H3K27me3
 	
 	track OK107_ChIP
 	shortLabel OK107 ChIP
@@ -97,6 +110,43 @@ compositeTrack on show
 		color 204, 121, 167
 		maxHeightPixels 8:30:128
 		subGroups view=signal cell=OK107 ab=input
+
+		track OK107_H3K4me3
+		bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b54b4b70243c8391c1/ucsc_bigwig/main/60e03588e2e06718/data/galaxy_bbd44e69cb8906b54b4b70243c8391c1.bigwig
+		shortLabel OK107 H3K4me3
+		longLabel OK107 H3K4me3
+		type bigWig
+		parent OK107_ChIP on show
+		visibility full
+		viewLimits 0:10
+		color 204, 121, 167
+		maxHeightPixels 8:30:128
+		subGroups view=signal cell=OK107 ab=H3K4me3
+
+		track OK107_H3K27ac
+		bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5a72db1632fd80bb1/ucsc_bigwig/main/7f54f2309f7162db/data/galaxy_bbd44e69cb8906b5a72db1632fd80bb1.bigwig
+		shortLabel OK107 H3K27ac
+		longLabel OK107 H3K27ac
+		type bigWig
+		parent OK107_ChIP on show
+		visibility full
+		viewLimits 0:10
+		color 204, 121, 167
+		maxHeightPixels 8:30:128
+		subGroups view=signal cell=OK107 ab=H3K27ac
+
+		track OK107_H3K27me3
+		bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b557adc34271c300ed/ucsc_bigwig/main/b19a9f5cb191946b/data/galaxy_bbd44e69cb8906b557adc34271c300ed.bigwig
+		shortLabel OK107 H3K27me3
+		longLabel OK107 H3K27me3
+		type bigWig 
+		parent OK107_ChIP on show
+		visibility full
+		viewLimits 0:10
+		color 204, 121, 167
+		maxHeightPixels 8:30:128
+		subGroups view=signal cell=OK107 ab=H3K27me3
+
 
 	track R57C10_ChIP
 	shortLabel R57C10 ChIP
