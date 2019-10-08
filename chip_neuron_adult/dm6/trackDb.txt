@@ -4,9 +4,6 @@ longLabel Octopaminergic Neuron Histone Profiles from INTACT nuclei
 superTrack on show
 type bigWig
 visibility full
-viewLimits 0:10
-color 230, 159, 0
-maxHeightPixels 8:30:128
 
 	track TDC2_input
 	bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5bf2a5d352d6aa4d5/ucsc_bigwig/main/1ed55ca6689e807f/data/galaxy_bbd44e69cb8906b5bf2a5d352d6aa4d5.bigwig
@@ -14,6 +11,10 @@ maxHeightPixels 8:30:128
 	longLabel TDC2 input
 	type bigWig
 	parent TDC2_ChIP on show
+	visibility full
+	viewLimits 0:10
+	color 230, 159, 0
+	maxHeightPixels 8:30:128
 
 	track TDC2_H3K4me3
 	bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5d05eaf692d98e491/ucsc_bigwig/main/ed39aa57270b1a3c/data/galaxy_bbd44e69cb8906b5d05eaf692d98e491.bigwig
@@ -21,6 +22,10 @@ maxHeightPixels 8:30:128
 	longLabel TDC2 H3K4me3
 	type bigWig
 	parent TDC2_ChIP on show
+	visibility full
+	viewLimits 0:10
+	color 230, 159, 0
+	maxHeightPixels 8:30:128
 
 	track TDC2_H3K27ac
 	bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b57615e855628a5033/ucsc_bigwig/main/8ef7650685c705a7/data/galaxy_bbd44e69cb8906b57615e855628a5033.bigwig
@@ -28,6 +33,10 @@ maxHeightPixels 8:30:128
 	longLabel TDC2 H3K27ac
 	type bigWig
 	parent TDC2_ChIP on show
+	visibility full
+	viewLimits 0:10
+	color 230, 159, 0
+	maxHeightPixels 8:30:128
 
 	track TDC2_H3K27me3_R1
 	bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5138e8263d52a0b4c/ucsc_bigwig/main/c442e8b9e3bdffe9/data/galaxy_bbd44e69cb8906b5138e8263d52a0b4c.bigwig
@@ -35,6 +44,10 @@ maxHeightPixels 8:30:128
 	longLabel TDC2 H3K27me3 Rep1
 	type bigWig
 	parent TDC2_ChIP on show
+	visibility full
+	viewLimits 0:10
+	color 230, 159, 0
+	maxHeightPixels 8:30:128
 
 	track TDC2_H3K27me3_R2
 	bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5d3f1e6423c003cd3/ucsc_bigwig/main/c69cc5f4178fedfd/data/galaxy_bbd44e69cb8906b5d3f1e6423c003cd3.bigwig
@@ -42,17 +55,17 @@ maxHeightPixels 8:30:128
 	longLabel TDC2 H3K27me3 Rep2
 	type bigWig
 	parent TDC2_ChIP on show
+	visibility full
+	viewLimits 0:10
+	color 230, 159, 0
+	maxHeightPixels 8:30:128
 	
-
 track OK107_ChIP
 shortLabel OK107 ChIP
 longLabel Kenyon Cell Histone Profiles from INTACT nuclei
 superTrack on show
 visibility full
 type bigWig
-viewLimits 0:10
-color 204, 121, 167
-maxHeightPixels 8:30:128
 
 	track OK107_input
 	bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5a9240e6a9559a55b/ucsc_bigwig/main/024edb41419ce368/data/galaxy_bbd44e69cb8906b5a9240e6a9559a55b.bigwig
@@ -60,6 +73,10 @@ maxHeightPixels 8:30:128
 	longLabel OK107 input
 	type bigWig
 	parent OK107_ChIP on show
+	visibility full
+	viewLimits 0:10
+	color 204, 121, 167
+	maxHeightPixels 8:30:128
 
 track R57C10_ChIP
 shortLabel R57C10 ChIP
@@ -67,9 +84,6 @@ longLabel All Neuron Histone Profiles from INTACT nuclei
 visibility full
 superTrack on show
 type bigWig
-viewLimits 0:10
-color 86, 180, 233
-maxHeightPixels 8:30:128
 
 	track R57C10_input
 	bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b53169ce8c334aae47/ucsc_bigwig/main/30dd3f5dd351fe32/data/galaxy_bbd44e69cb8906b53169ce8c334aae47.bigwig
@@ -77,3 +91,8 @@ maxHeightPixels 8:30:128
 	longLabel R57C10-input
 	type bigWig
 	parent R57C10_ChIP on show
+	visibility full	
+	viewLimits 0:10
+	color 86, 180, 233
+	maxHeightPixels 8:30:128
+	
