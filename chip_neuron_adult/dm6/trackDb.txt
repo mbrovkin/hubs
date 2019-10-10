@@ -156,7 +156,7 @@ compositeTrack on show
 		subGroups view=signal cell=AR57C10 ab=input
 
 		track R57C10_H3K4me3
-		bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5755428a636f5b372/ucsc_bigwig/main/8d527d1191caa586/data/galaxy_bbd44e69cb8906b5755428a636f5b372.bigwig
+		bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5bc3296005b1b0af5/ucsc_bigwig/main/b940c15b77e47c09/data/galaxy_bbd44e69cb8906b5bc3296005b1b0af5.bigwig
 		shortLabel R57C10 H3K4me3
 		longLabel R57C10 H3K4me3 mean of two replicates
 		type bigWig
@@ -180,7 +180,7 @@ compositeTrack on show
 		subGroups view=signal cell=AR57C10 ab=H3K27ac
 
 		track R57C10_H3K27me3
-		bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b50250c5db250b838b/ucsc_bigwig/main/a02f1046ecda856f/data/galaxy_bbd44e69cb8906b50250c5db250b838b.bigwig
+		bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b508270398196daefe/ucsc_bigwig/main/7cf5f826847c3a5f/data/galaxy_bbd44e69cb8906b508270398196daefe.bigwig
 		shortLabel R57C10 H3K27me3
 		longLabel R57C10 H3K27me3 mean of two replicates
 		type bigWig 
