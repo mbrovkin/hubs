@@ -1,4 +1,4 @@
-track Fru
+track Fru_NucRNA
 shortLabel Fruitless
 longLabel Fruitless
 type bigWig
@@ -36,7 +36,7 @@ container multiWig
 	parent Fru on
 	visibility full
 
-track OK107
+track OK107_NucRNA
 shortLabel Kenyon Cell
 longLabel Kenyon Cell
 type bigWig
@@ -74,7 +74,7 @@ container multiWig
 	parent OK107 on
 	visibility full
 
-track ELAV
+track ELAV_NucRNA
 shortLabel All Neurons
 longLabel All Neurons
 type bigWig

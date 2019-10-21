@@ -54,22 +54,10 @@ compositeTrack on show
 		maxHeightPixels 8:30:128
 		subGroups view=signal cell=BTDC2 ab=H3K27ac
 
-		track TDC2_H3K27me3_R1
-		bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5138e8263d52a0b4c/ucsc_bigwig/main/c442e8b9e3bdffe9/data/galaxy_bbd44e69cb8906b5138e8263d52a0b4c.bigwig
-		shortLabel TDC2 H3K27me3 Rep1
-		longLabel TDC2 H3K27me3 Rep1
-		type bigWig
-		parent TDC2_ChIP on show
-		visibility full
-		viewLimits 0:10
-		color 230, 159, 0
-		maxHeightPixels 8:30:128
-		subGroups view=signal cell=BTDC2 ab=H3K27me3
-
-		track TDC2_H3K27me3_R2
-		bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5d3f1e6423c003cd3/ucsc_bigwig/main/c69cc5f4178fedfd/data/galaxy_bbd44e69cb8906b5d3f1e6423c003cd3.bigwig
-		shortLabel TDC2 H3K27me3 Rep2
-		longLabel TDC2 H3K27me3 Rep2
+		track TDC2_H3K27me3
+		bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b59988fc1af61a6b24/ucsc_bigwig/main/daa7a317501da77e/data/galaxy_bbd44e69cb8906b59988fc1af61a6b24.bigwig
+		shortLabel TDC2 H3K27me3 
+		longLabel TDC2 H3K27me3 mean of two replicates
 		type bigWig
 		parent TDC2_ChIP on show
 		visibility full
