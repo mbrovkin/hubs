@@ -1,6 +1,6 @@
-track Fru_NucRNA
-shortLabel Fruitless
-longLabel Fruitless
+track Fru
+shortLabel Fru NucRNA
+longLabel Fruitless Nuclear RNA
 type bigWig
 aggregate transparentOverlay
 showSubtrackColorOnUi on
@@ -36,9 +36,9 @@ container multiWig
 	parent Fru on
 	visibility full
 
-track OK107_NucRNA
-shortLabel Kenyon Cell
-longLabel Kenyon Cell
+track OK107
+shortLabel OK107 NucRNA
+longLabel Kenyon Cell Nuclear RNA
 type bigWig
 aggregate transparentOverlay
 showSubtrackColorOnUi on
@@ -74,9 +74,9 @@ container multiWig
 	parent OK107 on
 	visibility full
 
-track ELAV_NucRNA
-shortLabel All Neurons
-longLabel All Neurons
+track ELAV
+shortLabel ELAV NucRNA
+longLabel All Neurons Nuclear RNA
 type bigWig
 aggregate transparentOverlay
 showSubtrackColorOnUi on
