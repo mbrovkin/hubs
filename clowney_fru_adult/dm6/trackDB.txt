@@ -1,38 +1,1114 @@
 track coll16599051
+aggregate none
+compositeTrack on
+autoScale on
+showSubtrackColorOnUi on
+priority 1
+customComposite on
+visibility full
 longLabel MaleFruMinus
 shortLabel MaleFruMinus
-aggregate transparentOverlay
-visibility full
-type bigWig
+type mathWig
+maxHeightPixels 10000:30:11
+customized on
 color 255,0,0
 
-	track MaleFruMinusR1
-	shortLabel ATAC_MaleFruMinus_R1
-	inputType bigWig
-	name MaleFruMinus_R1
-	tdbType bigWig
-	bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b50aea06938fd429f1/ucsc_bigwig/main/fc179a643e6b4914/data/galaxy_bbd44e69cb8906b50aea06938fd429f1.bigwig
-	altColor 127,127,127
-	parent coll16599051
-	color 0,0,0
-	description ATAC_Adult_MaleFruMinus_R1
-	db dm6
-	viewLimits 0.810000:3146.479980
-	longLabel ATAC_Adult_MaleFruMinus_R1
-	type bigWig
+track ct_MaleFruMinusR1_5302_fd50060
+shortLabel MaleFruMinus_R1
+group hub_2109735
+polished polished
+inputType bigWig
+origTrackLine track type="bigWig" name="MaleFruMinus_R1" bigDataUrl="https://usegalaxy.org/display_application/bbd44e69cb8906b50aea06938fd429f1/ucsc_bigwig/main/fc179a643e6b4914/data/galaxy_bbd44e69cb8906b50aea06938fd429f1.bigwig" db="dm6"
+name MaleFruMinus_R1
+tdbType bigWig
+dataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b50aea06938fd429f1/ucsc_bigwig/main/fc179a643e6b4914/param/track
+priority 2
+bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b50aea06938fd429f1/ucsc_bigwig/main/fc179a643e6b4914/data/galaxy_bbd44e69cb8906b50aea06938fd429f1.bigwig
+altColor 127,127,127
+parent coll16599051
+customized on
+color 0,0,0
+description MaleFruMinus_R1
+db dm6
+viewLimits 0.810000:3146.479980
+longLabel MaleFruMinus_R1
+type bigWig
 
-	track MaleFruMinusR2
-	shortLabel ATAC_MaleFruMinus_R2
-	inputType bigWig
-	name MaleFruMinus_R2
-	tdbType bigWig
-	bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5dd6b738f9b7cb225/ucsc_bigwig/main/0cd07f7f0e4314d4/data/galaxy_bbd44e69cb8906b5dd6b738f9b7cb225.bigwig
-	altColor 127,127,127
-	parent coll16599051
-	color 0,0,0
-	description ATAC_Adult_MaleFruMinus_R2
-	db dm6
-	viewLimits 1.270000:2877.530029
-	longLabel ATAC_Adult_MaleFruMinus_R2
-	type bigWig
+track ct_MaleFruMinusR2_5303_fd50060
+shortLabel MaleFruMinus_R2
+group hub_2109735
+polished polished
+inputType bigWig
+origTrackLine track type="bigWig" name="MaleFruMinus_R2" bigDataUrl="https://usegalaxy.org/display_application/bbd44e69cb8906b5dd6b738f9b7cb225/ucsc_bigwig/main/0cd07f7f0e4314d4/data/galaxy_bbd44e69cb8906b5dd6b738f9b7cb225.bigwig" db="dm6"
+name MaleFruMinus_R2
+tdbType bigWig
+dataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5dd6b738f9b7cb225/ucsc_bigwig/main/0cd07f7f0e4314d4/param/track
+priority 3
+bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5dd6b738f9b7cb225/ucsc_bigwig/main/0cd07f7f0e4314d4/data/galaxy_bbd44e69cb8906b5dd6b738f9b7cb225.bigwig
+altColor 127,127,127
+parent coll16599051
+customized on
+color 0,0,0
+description MaleFruMinus_R2
+db dm6
+viewLimits 1.270000:2877.530029
+longLabel MaleFruMinus_R2
+type bigWig
+
+track coll16599073
+aggregate none
+compositeTrack on
+autoScale on
+showSubtrackColorOnUi on
+priority 4
+customComposite on
+visibility full
+longLabel MaleFruPlus
+shortLabel MaleFruPlus
+type mathWig
+maxHeightPixels 10000:30:11
+customized on
+color 255,128,0
+
+track ct_MaleFruPlusR1_2745_fd50060
+shortLabel MaleFruPlus_R1
+group hub_2109735
+polished polished
+inputType bigWig
+origTrackLine track type="bigWig" name="MaleFruPlus_R1" bigDataUrl="https://usegalaxy.org/display_application/bbd44e69cb8906b502c9c96fb3818161/ucsc_bigwig/main/8444cf9becb33514/data/galaxy_bbd44e69cb8906b502c9c96fb3818161.bigwig" db="dm6"
+name MaleFruPlus_R1
+tdbType bigWig
+dataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b502c9c96fb3818161/ucsc_bigwig/main/8444cf9becb33514/param/track
+priority 5
+bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b502c9c96fb3818161/ucsc_bigwig/main/8444cf9becb33514/data/galaxy_bbd44e69cb8906b502c9c96fb3818161.bigwig
+altColor 127,127,127
+parent coll16599073
+customized on
+color 0,0,0
+description MaleFruPlus_R1
+db dm6
+viewLimits 1.060000:3753.260010
+longLabel MaleFruPlus_R1
+type bigWig
+
+track ct_MaleFruPlusR2_2746_fd50060
+shortLabel MaleFruPlus_R2
+group hub_2109735
+polished polished
+inputType bigWig
+origTrackLine track type="bigWig" name="MaleFruPlus_R2" bigDataUrl="https://usegalaxy.org/display_application/bbd44e69cb8906b5492a14dd2b98bc72/ucsc_bigwig/main/be63b07adac539e1/data/galaxy_bbd44e69cb8906b5492a14dd2b98bc72.bigwig" db="dm6"
+name MaleFruPlus_R2
+tdbType bigWig
+dataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5492a14dd2b98bc72/ucsc_bigwig/main/be63b07adac539e1/param/track
+priority 6
+bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5492a14dd2b98bc72/ucsc_bigwig/main/be63b07adac539e1/data/galaxy_bbd44e69cb8906b5492a14dd2b98bc72.bigwig
+altColor 127,127,127
+parent coll16599073
+customized on
+color 0,0,0
+description MaleFruPlus_R2
+db dm6
+viewLimits 1.120000:5359.479980
+longLabel MaleFruPlus_R2
+type bigWig
+
+track coll16599102
+aggregate none
+compositeTrack on
+autoScale on
+showSubtrackColorOnUi on
+priority 7
+customComposite on
+visibility full
+longLabel FemFruPlus
+shortLabel FemFruPlus
+type mathWig
+maxHeightPixels 10000:30:11
+customized on
+color 0,0,255
+
+track ct_FemFruPlusR1_9804_fd50060
+shortLabel FemFruPlus_R1
+group hub_2109735
+polished polished
+inputType bigWig
+origTrackLine track type="bigWig" name="FemFruPlus_R1" bigDataUrl="https://usegalaxy.org/display_application/bbd44e69cb8906b5b19354ff4de8a77d/ucsc_bigwig/main/5057dd45a68eb010/data/galaxy_bbd44e69cb8906b5b19354ff4de8a77d.bigwig" db="dm6"
+name FemFruPlus_R1
+tdbType bigWig
+dataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5b19354ff4de8a77d/ucsc_bigwig/main/5057dd45a68eb010/param/track
+priority 8
+bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5b19354ff4de8a77d/ucsc_bigwig/main/5057dd45a68eb010/data/galaxy_bbd44e69cb8906b5b19354ff4de8a77d.bigwig
+altColor 127,127,127
+parent coll16599102
+customized on
+color 0,0,0
+description FemFruPlus_R1
+db dm6
+viewLimits 1.280000:3363.879883
+longLabel FemFruPlus_R1
+type bigWig
+
+track ct_FemFruPlusR2_9805_fd50060
+shortLabel FemFruPlus_R2
+group hub_2109735
+polished polished
+inputType bigWig
+origTrackLine track type="bigWig" name="FemFruPlus_R2" bigDataUrl="https://usegalaxy.org/display_application/bbd44e69cb8906b503aec952cd87d5f7/ucsc_bigwig/main/702185ad9e92b5a2/data/galaxy_bbd44e69cb8906b503aec952cd87d5f7.bigwig" db="dm6"
+name FemFruPlus_R2
+tdbType bigWig
+dataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b503aec952cd87d5f7/ucsc_bigwig/main/702185ad9e92b5a2/param/track
+priority 9
+bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b503aec952cd87d5f7/ucsc_bigwig/main/702185ad9e92b5a2/data/galaxy_bbd44e69cb8906b503aec952cd87d5f7.bigwig
+altColor 127,127,127
+parent coll16599102
+customized on
+color 0,0,0
+description FemFruPlus_R2
+db dm6
+viewLimits 1.490000:5594.500000
+longLabel FemFruPlus_R2
+type bigWig
+
+track coll16599302
+aggregate none
+compositeTrack on
+autoScale on
+showSubtrackColorOnUi on
+priority 10
+customComposite on
+visibility full
+longLabel FemFruMinus
+shortLabel FemFruMinus
+type mathWig
+maxHeightPixels 10000:30:11
+customized on
+color 0,128,0
+
+track ct_FemFruMinusR1_9715_fd50d60
+shortLabel FemFruMinus_R1
+group hub_2109735
+polished polished
+inputType bigWig
+origTrackLine track type="bigWig" name="FemFruMinus_R1" bigDataUrl="https://usegalaxy.org/display_application/bbd44e69cb8906b575de6041faa96a26/ucsc_bigwig/main/d260dc0fe3f43aaa/data/galaxy_bbd44e69cb8906b575de6041faa96a26.bigwig" db="dm6"
+name FemFruMinus_R1
+tdbType bigWig
+dataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b575de6041faa96a26/ucsc_bigwig/main/d260dc0fe3f43aaa/param/track
+priority 11
+bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b575de6041faa96a26/ucsc_bigwig/main/d260dc0fe3f43aaa/data/galaxy_bbd44e69cb8906b575de6041faa96a26.bigwig
+altColor 127,127,127
+parent coll16599302
+customized on
+color 0,0,0
+description FemFruMinus_R1
+db dm6
+viewLimits 1.010000:3032.719971
+longLabel FemFruMinus_R1
+type bigWig
+
+track ct_FemFruMinusR2_9716_fd50d60
+shortLabel FemFruMinus_R2
+group hub_2109735
+polished polished
+inputType bigWig
+origTrackLine track type="bigWig" name="FemFruMinus_R2" bigDataUrl="https://usegalaxy.org/display_application/bbd44e69cb8906b5b3d5ac88f90842b2/ucsc_bigwig/main/fd8031aa85807d4e/data/galaxy_bbd44e69cb8906b5b3d5ac88f90842b2.bigwig" db="dm6"
+name FemFruMinus_R2
+tdbType bigWig
+dataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5b3d5ac88f90842b2/ucsc_bigwig/main/fd8031aa85807d4e/param/track
+priority 12
+bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5b3d5ac88f90842b2/ucsc_bigwig/main/fd8031aa85807d4e/data/galaxy_bbd44e69cb8906b5b3d5ac88f90842b2.bigwig
+altColor 127,127,127
+parent coll16599302
+customized on
+color 0,0,0
+description FemFruMinus_R2
+db dm6
+viewLimits 1.380000:3464.739990
+longLabel FemFruMinus_R2
+type bigWig
+
+track coll16665391
+aggregate none
+compositeTrack on
+autoScale on
+showSubtrackColorOnUi on
+priority 13
+customComposite on
+visibility full
+longLabel Olfactory Projection Neuron
+shortLabel OlfProjectNeuron
+type mathWig
+maxHeightPixels 10000:30:11
+customized on
+color 62,84,150
+
+track ct_ATACOlfProjectNeuronRep1_7254_12ee8440
+shortLabel ATAC_OlfProjectNeuron_Rep1
+group hub_2109735
+polished polished
+inputType bigWig
+origTrackLine track type="bigWig" name="ATAC_OlfProjectNeuron_Rep1" bigDataUrl="https://usegalaxy.org/display_application/bbd44e69cb8906b51d0ec664b2577e07/ucsc_bigwig/main/4ba34464e72b95b7/data/galaxy_bbd44e69cb8906b51d0ec664b2577e07.bigwig" db="dm6"
+name ATAC_OlfProjectNeuron_Rep1
+tdbType bigWig
+dataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b51d0ec664b2577e07/ucsc_bigwig/main/4ba34464e72b95b7/param/track
+priority 14
+bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b51d0ec664b2577e07/ucsc_bigwig/main/4ba34464e72b95b7/data/galaxy_bbd44e69cb8906b51d0ec664b2577e07.bigwig
+altColor 127,127,127
+parent coll16665391
+customized on
+color 0,0,0
+description ATAC_OlfProjectNeuron_Rep1
+db dm6
+viewLimits 2.260000:11229.669922
+longLabel ATAC_OlfProjectNeuron_Rep1
+type bigWig
+
+track ct_ATACOlfProjectNeuronRep2_7255_12ee8440
+shortLabel ATAC_OlfProjectNeuron_Rep2
+group hub_2109735
+polished polished
+inputType bigWig
+origTrackLine track type="bigWig" name="ATAC_OlfProjectNeuron_Rep2" bigDataUrl="https://usegalaxy.org/display_application/bbd44e69cb8906b55c24bcfb4005ac60/ucsc_bigwig/main/90be3d2656fcdd84/data/galaxy_bbd44e69cb8906b55c24bcfb4005ac60.bigwig" db="dm6"
+name ATAC_OlfProjectNeuron_Rep2
+tdbType bigWig
+dataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b55c24bcfb4005ac60/ucsc_bigwig/main/90be3d2656fcdd84/param/track
+priority 15
+bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b55c24bcfb4005ac60/ucsc_bigwig/main/90be3d2656fcdd84/data/galaxy_bbd44e69cb8906b55c24bcfb4005ac60.bigwig
+altColor 127,127,127
+parent coll16665391
+customized on
+color 0,0,0
+description ATAC_OlfProjectNeuron_Rep2
+db dm6
+viewLimits 1.520000:6528.319824
+longLabel ATAC_OlfProjectNeuron_Rep2
+type bigWig
+
+track coll16665411
+aggregate none
+compositeTrack on
+autoScale on
+showSubtrackColorOnUi on
+priority 16
+customComposite on
+visibility full
+longLabel Kenyon Cells
+shortLabel Kenyon
+type mathWig
+maxHeightPixels 10000:30:11
+customized on
+color 142,32,67
+
+track ct_ATACKenyonRep1_3810_12ee8440
+shortLabel ATAC_Kenyon_Rep1
+group hub_2109735
+polished polished
+inputType bigWig
+origTrackLine track type="bigWig" name="ATAC_Kenyon_Rep1" bigDataUrl="https://usegalaxy.org/display_application/bbd44e69cb8906b5eaebc06eb34bcf36/ucsc_bigwig/main/03cec06f8747b9c5/data/galaxy_bbd44e69cb8906b5eaebc06eb34bcf36.bigwig" db="dm6"
+name ATAC_Kenyon_Rep1
+tdbType bigWig
+dataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5eaebc06eb34bcf36/ucsc_bigwig/main/03cec06f8747b9c5/param/track
+priority 17
+bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5eaebc06eb34bcf36/ucsc_bigwig/main/03cec06f8747b9c5/data/galaxy_bbd44e69cb8906b5eaebc06eb34bcf36.bigwig
+altColor 127,127,127
+parent coll16665411
+customized on
+color 0,0,0
+description ATAC_Kenyon_Rep1
+db dm6
+viewLimits 0.930000:5929.069824
+longLabel ATAC_Kenyon_Rep1
+type bigWig
+
+track ct_ATACKenyonRep2_3811_12ee8440
+shortLabel ATAC_Kenyon_Rep2
+group hub_2109735
+polished polished
+inputType bigWig
+origTrackLine track type="bigWig" name="ATAC_Kenyon_Rep2" bigDataUrl="https://usegalaxy.org/display_application/bbd44e69cb8906b583e9a1252620e6e4/ucsc_bigwig/main/23d7b3638f857810/data/galaxy_bbd44e69cb8906b583e9a1252620e6e4.bigwig" db="dm6"
+name ATAC_Kenyon_Rep2
+tdbType bigWig
+dataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b583e9a1252620e6e4/ucsc_bigwig/main/23d7b3638f857810/param/track
+priority 18
+bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b583e9a1252620e6e4/ucsc_bigwig/main/23d7b3638f857810/data/galaxy_bbd44e69cb8906b583e9a1252620e6e4.bigwig
+altColor 127,127,127
+parent coll16665411
+customized on
+color 0,0,0
+description ATAC_Kenyon_Rep2
+db dm6
+viewLimits 0.610000:3810.790039
+longLabel ATAC_Kenyon_Rep2
+type bigWig
+
+track coll16665442
+aggregate none
+compositeTrack on
+autoScale on
+showSubtrackColorOnUi on
+priority 19
+customComposite on
+visibility full
+longLabel Double Negative Neurons
+shortLabel DoubleNeg
+type mathWig
+maxHeightPixels 10000:30:11
+customized on
+color 10,144,134
+
+track ct_ATACDoubleNegRep1_1859_12ee8440
+shortLabel ATAC_DoubleNeg_Rep1
+group hub_2109735
+polished polished
+inputType bigWig
+origTrackLine track type="bigWig" name="ATAC_DoubleNeg_Rep1" bigDataUrl="https://usegalaxy.org/display_application/bbd44e69cb8906b51134792f725ed593/ucsc_bigwig/main/9edb9a10303790d0/data/galaxy_bbd44e69cb8906b51134792f725ed593.bigwig" db="dm6"
+name ATAC_DoubleNeg_Rep1
+tdbType bigWig
+dataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b51134792f725ed593/ucsc_bigwig/main/9edb9a10303790d0/param/track
+priority 20
+bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b51134792f725ed593/ucsc_bigwig/main/9edb9a10303790d0/data/galaxy_bbd44e69cb8906b51134792f725ed593.bigwig
+altColor 127,127,127
+parent coll16665442
+customized on
+color 0,0,0
+description ATAC_DoubleNeg_Rep1
+db dm6
+viewLimits 1.440000:10563.969727
+longLabel ATAC_DoubleNeg_Rep1
+type bigWig
+
+track ct_ATACDoubleNegRep2_1860_12ee8440
+shortLabel ATAC_DoubleNeg_Rep2
+group hub_2109735
+polished polished
+inputType bigWig
+origTrackLine track type="bigWig" name="ATAC_DoubleNeg_Rep2" bigDataUrl="https://usegalaxy.org/display_application/bbd44e69cb8906b5326915b55588121b/ucsc_bigwig/main/aec87fcff61bb47b/data/galaxy_bbd44e69cb8906b5326915b55588121b.bigwig" db="dm6"
+name ATAC_DoubleNeg_Rep2
+tdbType bigWig
+dataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5326915b55588121b/ucsc_bigwig/main/aec87fcff61bb47b/param/track
+priority 21
+bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5326915b55588121b/ucsc_bigwig/main/aec87fcff61bb47b/data/galaxy_bbd44e69cb8906b5326915b55588121b.bigwig
+altColor 127,127,127
+parent coll16665442
+customized on
+color 0,0,0
+description ATAC_DoubleNeg_Rep2
+db dm6
+viewLimits 0.510000:4135.279785
+longLabel ATAC_DoubleNeg_Rep2
+type bigWig
+
+track coll17165510
+aggregate none
+compositeTrack on
+autoScale on
+showSubtrackColorOnUi on
+priority 22
+customComposite on
+visibility full
+longLabel Kenyon_RNASeq
+shortLabel Kenyon_RNASeq
+type mathWig
+maxHeightPixels 10000:30:11
+customized on
+color 142,32,67
+
+track ct_KenyonR1RNASeq_7516_13586c70
+shortLabel Kenyon_R1_RNASeq
+group hub_2109735
+polished polished
+inputType bigWig
+origTrackLine track type="bigWig" name="Kenyon_R1_RNASeq" bigDataUrl="https://usegalaxy.org/display_application/bbd44e69cb8906b52ab669b2a46d3ef1/ucsc_bigwig/main/2bcc6f0b9e19e302/data/galaxy_bbd44e69cb8906b52ab669b2a46d3ef1.bigwig" db="dm6"
+name Kenyon_R1_RNASeq
+tdbType bigWig
+dataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b52ab669b2a46d3ef1/ucsc_bigwig/main/2bcc6f0b9e19e302/param/track
+priority 23
+bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b52ab669b2a46d3ef1/ucsc_bigwig/main/2bcc6f0b9e19e302/data/galaxy_bbd44e69cb8906b52ab669b2a46d3ef1.bigwig
+altColor 127,127,127
+parent coll17165510
+customized on
+color 0,0,0
+description Kenyon_R1_RNASeq
+db dm6
+viewLimits 0.000000:17071.599609
+longLabel Kenyon_R1_RNASeq
+type bigWig
+
+track ct_KenyonR2RNASeq_1922_13586c70
+shortLabel Kenyon_R2_RNASeq
+group hub_2109735
+polished polished
+inputType bigWig
+origTrackLine track type="bigWig" name="Kenyon_R2_RNASeq" bigDataUrl="https://usegalaxy.org/display_application/bbd44e69cb8906b5da52d61c2712e04f/ucsc_bigwig/main/f7b305213a18a40e/data/galaxy_bbd44e69cb8906b5da52d61c2712e04f.bigwig" db="dm6"
+name Kenyon_R2_RNASeq
+tdbType bigWig
+dataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5da52d61c2712e04f/ucsc_bigwig/main/f7b305213a18a40e/param/track
+priority 24
+bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5da52d61c2712e04f/ucsc_bigwig/main/f7b305213a18a40e/data/galaxy_bbd44e69cb8906b5da52d61c2712e04f.bigwig
+altColor 127,127,127
+parent coll17165510
+customized on
+color 0,0,0
+description Kenyon_R2_RNASeq
+db dm6
+viewLimits 0.000000:11554.099609
+longLabel Kenyon_R2_RNASeq
+type bigWig
+
+track coll19945944
+aggregate none
+compositeTrack on
+autoScale on
+showSubtrackColorOnUi on
+priority 25
+customComposite on
+visibility full
+longLabel OlfProjectNeuron_RNASeq
+shortLabel OlfProjectNeuron_RNASeq
+type mathWig
+maxHeightPixels 10000:30:11
+customized on
+color 62,84,150
+
+track ct_OlfProjectNeuronR1RNASeq_9006_13586c70
+shortLabel OlfProjectNeuron_R1_RNASeq
+group hub_2109735
+polished polished
+inputType bigWig
+origTrackLine track type="bigWig" name="OlfProjectNeuron_R1_RNASeq" bigDataUrl="https://usegalaxy.org/display_application/bbd44e69cb8906b508d3604635049c5d/ucsc_bigwig/main/9a4a2a080cd9cca8/data/galaxy_bbd44e69cb8906b508d3604635049c5d.bigwig" db="dm6"
+name OlfProjectNeuron_R1_RNASeq
+tdbType bigWig
+dataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b508d3604635049c5d/ucsc_bigwig/main/9a4a2a080cd9cca8/param/track
+priority 26
+bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b508d3604635049c5d/ucsc_bigwig/main/9a4a2a080cd9cca8/data/galaxy_bbd44e69cb8906b508d3604635049c5d.bigwig
+altColor 127,127,127
+parent coll19945944
+customized on
+color 0,0,0
+description OlfProjectNeuron_R1_RNASeq
+db dm6
+viewLimits 0.000000:8542.969727
+longLabel OlfProjectNeuron_R1_RNASeq
+type bigWig
+
+track ct_OlfProjectNeuronR2RNASeq_3412_13586c70
+shortLabel OlfProjectNeuron_R2_RNASeq
+group hub_2109735
+polished polished
+inputType bigWig
+origTrackLine track type="bigWig" name="OlfProjectNeuron_R2_RNASeq" bigDataUrl="https://usegalaxy.org/display_application/bbd44e69cb8906b573a165864c540b68/ucsc_bigwig/main/86cd19950e16ba65/data/galaxy_bbd44e69cb8906b573a165864c540b68.bigwig" db="dm6"
+name OlfProjectNeuron_R2_RNASeq
+tdbType bigWig
+dataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b573a165864c540b68/ucsc_bigwig/main/86cd19950e16ba65/param/track
+priority 27
+bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b573a165864c540b68/ucsc_bigwig/main/86cd19950e16ba65/data/galaxy_bbd44e69cb8906b573a165864c540b68.bigwig
+altColor 127,127,127
+parent coll19945944
+customized on
+color 0,0,0
+description OlfProjectNeuron_R2_RNASeq
+db dm6
+viewLimits 0.000000:6935.850098
+longLabel OlfProjectNeuron_R2_RNASeq
+type bigWig
+
+track coll19945991
+aggregate none
+compositeTrack on
+autoScale on
+showSubtrackColorOnUi on
+priority 28
+customComposite on
+visibility full
+longLabel DoubleNeg_RNASeq
+shortLabel DoubleNeg_RNASeq
+type mathWig
+maxHeightPixels 10000:30:11
+customized on
+color 10,144,134
+
+track ct_DoubleNegR1RNASeq_9156_13586c70
+shortLabel DoubleNeg_R1_RNASeq
+group hub_2109735
+polished polished
+inputType bigWig
+origTrackLine track type="bigWig" name="DoubleNeg_R1_RNASeq" bigDataUrl="https://usegalaxy.org/display_application/bbd44e69cb8906b5761a4a5452ff25f4/ucsc_bigwig/main/0d24c3c4cbb88f7d/data/galaxy_bbd44e69cb8906b5761a4a5452ff25f4.bigwig" db="dm6"
+name DoubleNeg_R1_RNASeq
+tdbType bigWig
+dataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5761a4a5452ff25f4/ucsc_bigwig/main/0d24c3c4cbb88f7d/param/track
+priority 29
+bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5761a4a5452ff25f4/ucsc_bigwig/main/0d24c3c4cbb88f7d/data/galaxy_bbd44e69cb8906b5761a4a5452ff25f4.bigwig
+altColor 127,127,127
+parent coll19945991
+customized on
+color 0,0,0
+description DoubleNeg_R1_RNASeq
+db dm6
+viewLimits 0.000000:15072.000000
+longLabel DoubleNeg_R1_RNASeq
+type bigWig
+
+track ct_DoubleNegR2RNASeq_3562_13586c70
+shortLabel DoubleNeg_R2_RNASeq
+group hub_2109735
+polished polished
+inputType bigWig
+origTrackLine track type="bigWig" name="DoubleNeg_R2_RNASeq" bigDataUrl="https://usegalaxy.org/display_application/bbd44e69cb8906b57d4b58489eb2e6f8/ucsc_bigwig/main/e50e0b2e75060fb7/data/galaxy_bbd44e69cb8906b57d4b58489eb2e6f8.bigwig" db="dm6"
+name DoubleNeg_R2_RNASeq
+tdbType bigWig
+dataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b57d4b58489eb2e6f8/ucsc_bigwig/main/e50e0b2e75060fb7/param/track
+priority 30
+bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b57d4b58489eb2e6f8/ucsc_bigwig/main/e50e0b2e75060fb7/data/galaxy_bbd44e69cb8906b57d4b58489eb2e6f8.bigwig
+altColor 127,127,127
+parent coll19945991
+customized on
+color 0,0,0
+description DoubleNeg_R2_RNASeq
+db dm6
+viewLimits 0.000000:9218.259766
+longLabel DoubleNeg_R2_RNASeq
+type bigWig
+
+track coll45761856
+aggregate none
+compositeTrack on
+autoScale on
+showSubtrackColorOnUi on
+priority 31
+customComposite on
+visibility full
+longLabel probably atac seq 0d
+shortLabel aerts
+type mathWig
+maxHeightPixels 10000:30:11
+customized on
+color 58,118,110
+
+track ct_GSE107451DGRP9070ds8bw_3607_2ba4d100
+shortLabel GSE107451_DGRP-907_0d_s8.bw
+group hub_2109735
+polished polished
+inputType bigWig
+origTrackLine track name=GSE107451_DGRP-907_0d_s8.bw bigDataUrl=ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE107nnn/GSE107451/suppl/GSE107451_DGRP-907_0d_s8.bw type=bigWig
+name GSE107451_DGRP-907_0d_s8.bw
+tdbType bigWig
+priority 32
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE107nnn/GSE107451/suppl/GSE107451_DGRP-907_0d_s8.bw
+altColor 127,127,127
+parent coll45761856
+customized on
+color 0,0,0
+description GSE107451_DGRP-907_0d_s8.bw
+db dm6
+viewLimits 1.000000:8498.000000
+longLabel GSE107451_DGRP-907_0d_s8.bw
+type bigWig
+
+track ct_GSE107451DGRP9130ds9bw_1914_2ba4d100
+shortLabel GSE107451_DGRP-913_0d_s9.bw
+group hub_2109735
+polished polished
+inputType bigWig
+origTrackLine track name=GSE107451_DGRP-913_0d_s9.bw bigDataUrl=ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE107nnn/GSE107451/suppl/GSE107451_DGRP-913_0d_s9.bw type=bigWig
+name GSE107451_DGRP-913_0d_s9.bw
+tdbType bigWig
+priority 33
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE107nnn/GSE107451/suppl/GSE107451_DGRP-913_0d_s9.bw
+altColor 127,127,127
+parent coll45761856
+customized on
+color 0,0,0
+description GSE107451_DGRP-913_0d_s9.bw
+db dm6
+viewLimits 1.000000:2536.000000
+longLabel GSE107451_DGRP-913_0d_s9.bw
+type bigWig
+
+track ct_GSE107451DGRP8200ds10bw_9831_2ba4d100
+shortLabel GSE107451_DGRP-820_0d_s10.bw
+group hub_2109735
+polished polished
+inputType bigWig
+origTrackLine track name=GSE107451_DGRP-820_0d_s10.bw bigDataUrl=ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE107nnn/GSE107451/suppl/GSE107451_DGRP-820_0d_s10.bw type=bigWig
+name GSE107451_DGRP-820_0d_s10.bw
+tdbType bigWig
+priority 34
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE107nnn/GSE107451/suppl/GSE107451_DGRP-820_0d_s10.bw
+altColor 127,127,127
+parent coll45761856
+customized on
+color 0,0,0
+description GSE107451_DGRP-820_0d_s10.bw
+db dm6
+viewLimits 1.000000:3495.000000
+longLabel GSE107451_DGRP-820_0d_s10.bw
+type bigWig
+
+track coll45873658
+aggregate none
+compositeTrack on
+autoScale on
+showSubtrackColorOnUi on
+priority 35
+customComposite on
+visibility full
+longLabel male and female atac sample
+shortLabel aerts_sexed
+type mathWig
+maxHeightPixels 10000:30:11
+customized on
+color 216,38,86
+
+track ct_GSE107451DGRP5510d3mbw_2790_2bbf1590
+shortLabel Adult_Male_Brain
+group hub_2109735
+polished polished
+inputType bigWig
+origTrackLine track name=GSE107451_DGRP-551_0d_3m.bw bigDataUrl=ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE107nnn/GSE107451/suppl/GSE107451_DGRP-551_0d_3m.bw type=bigWig
+name GSE107451_DGRP-551_0d_3m.bw
+tdbType bigWig
+priority 36
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE107nnn/GSE107451/suppl/GSE107451_DGRP-551_0d_3m.bw
+altColor 127,127,127
+parent coll45873658
+customized on
+color 0,140,152
+description GSE107451_DGRP-551_0d_3m.bw
+db dm6
+viewLimits 1.000000:5111.000000
+longLabel GSE107451_DGRP-551_0d_3m.bw
+type bigWig
+
+track ct_GSE107451DGRP5510d3fbw_7684_2bbf1590
+shortLabel Adult_Female_Brain
+group hub_2109735
+polished polished
+inputType bigWig
+origTrackLine track name=GSE107451_DGRP-551_0d_3f.bw bigDataUrl=ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE107nnn/GSE107451/suppl/GSE107451_DGRP-551_0d_3f.bw type=bigWig
+name GSE107451_DGRP-551_0d_3f.bw
+tdbType bigWig
+priority 37
+bigDataUrl ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE107nnn/GSE107451/suppl/GSE107451_DGRP-551_0d_3f.bw
+altColor 127,127,127
+parent coll45873658
+customized on
+color 216,38,86
+description GSE107451_DGRP-551_0d_3f.bw
+db dm6
+viewLimits 1.000000:13700.000000
+longLabel GSE107451_DGRP-551_0d_3f.bw
+type bigWig
+
+track coll53225304
+aggregate none
+compositeTrack on
+autoScale on
+showSubtrackColorOnUi on
+priority 38
+customComposite on
+visibility full
+longLabel RNAseq
+shortLabel MaleFruMinus_RNA
+type mathWig
+maxHeightPixels 10000:30:11
+customized on
+color 255,0,0
+
+track ct_MaleFruMinusR1_5302_32c2f660
+shortLabel MaleFruMinus_R1
+group hub_2109735
+polished polished
+inputType bigWig
+origTrackLine track type="bigWig" name="MaleFruMinus_R1" bigDataUrl="https://usegalaxy.org/display_application/bbd44e69cb8906b5990c1b1f2297e27c/ucsc_bigwig/main/a9f0d6397569e05e/data/galaxy_bbd44e69cb8906b5990c1b1f2297e27c.bigwig" db="dm6"
+name MaleFruMinus_R1
+tdbType bigWig
+dataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5990c1b1f2297e27c/ucsc_bigwig/main/a9f0d6397569e05e/param/track
+priority 39
+bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5990c1b1f2297e27c/ucsc_bigwig/main/a9f0d6397569e05e/data/galaxy_bbd44e69cb8906b5990c1b1f2297e27c.bigwig
+altColor 127,127,127
+parent coll53225304
+customized on
+color 0,0,0
+description MaleFruMinus_R1
+db dm6
+viewLimits 0.000000:1711.569946
+longLabel MaleFruMinus_R1
+type bigWig
+
+track ct_MaleFruMinusR2_5303_32ff5f20
+shortLabel MaleFruMinus_R2
+group hub_2109735
+polished polished
+inputType bigWig
+origTrackLine track type="bigWig" name="MaleFruMinus_R2" bigDataUrl="https://usegalaxy.org/display_application/bbd44e69cb8906b57e41029210792bcf/ucsc_bigwig/main/14882c3e09771694/data/galaxy_bbd44e69cb8906b57e41029210792bcf.bigwig" db="dm6"
+name MaleFruMinus_R2
+tdbType bigWig
+dataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b57e41029210792bcf/ucsc_bigwig/main/14882c3e09771694/param/track
+priority 40
+bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b57e41029210792bcf/ucsc_bigwig/main/14882c3e09771694/data/galaxy_bbd44e69cb8906b57e41029210792bcf.bigwig
+altColor 127,127,127
+parent coll53225304
+customized on
+color 0,0,0
+description MaleFruMinus_R2
+db dm6
+viewLimits 0.000000:1423.089966
+longLabel MaleFruMinus_R2
+type bigWig
+
+track coll53225317
+aggregate none
+compositeTrack on
+autoScale on
+showSubtrackColorOnUi on
+priority 41
+customComposite on
+visibility full
+longLabel RNAseq
+shortLabel MaleFruPlus_RNA
+type mathWig
+maxHeightPixels 10000:30:11
+customized on
+color 255,128,0
+
+track ct_MaleFruPlusR1_2745_32c2f660
+shortLabel MaleFruPlus_R1
+group hub_2109735
+polished polished
+inputType bigWig
+origTrackLine track type="bigWig" name="MaleFruPlus_R1" bigDataUrl="https://usegalaxy.org/display_application/bbd44e69cb8906b573cbd1b75495396d/ucsc_bigwig/main/7ec68e0d0db57365/data/galaxy_bbd44e69cb8906b573cbd1b75495396d.bigwig" db="dm6"
+name MaleFruPlus_R1
+tdbType bigWig
+dataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b573cbd1b75495396d/ucsc_bigwig/main/7ec68e0d0db57365/param/track
+priority 42
+bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b573cbd1b75495396d/ucsc_bigwig/main/7ec68e0d0db57365/data/galaxy_bbd44e69cb8906b573cbd1b75495396d.bigwig
+altColor 127,127,127
+parent coll53225317
+customized on
+color 0,0,0
+description MaleFruPlus_R1
+db dm6
+viewLimits 0.000000:1729.930054
+longLabel MaleFruPlus_R1
+type bigWig
+
+track ct_MaleFruPlusR2_2746_32ff5740
+shortLabel MaleFruPlus_R2
+group hub_2109735
+polished polished
+inputType bigWig
+origTrackLine track type="bigWig" name="MaleFruPlus_R2" bigDataUrl="https://usegalaxy.org/display_application/bbd44e69cb8906b58cd2a0984d777ea6/ucsc_bigwig/main/8d9d0aea05f8fbbb/data/galaxy_bbd44e69cb8906b58cd2a0984d777ea6.bigwig" db="dm6"
+name MaleFruPlus_R2
+tdbType bigWig
+dataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b58cd2a0984d777ea6/ucsc_bigwig/main/8d9d0aea05f8fbbb/param/track
+priority 43
+bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b58cd2a0984d777ea6/ucsc_bigwig/main/8d9d0aea05f8fbbb/data/galaxy_bbd44e69cb8906b58cd2a0984d777ea6.bigwig
+altColor 127,127,127
+parent coll53225317
+customized on
+color 0,0,0
+description MaleFruPlus_R2
+db dm6
+viewLimits 0.000000:1747.630005
+longLabel MaleFruPlus_R2
+type bigWig
+
+track coll53225342
+aggregate none
+compositeTrack on
+autoScale on
+showSubtrackColorOnUi on
+priority 44
+customComposite on
+visibility full
+longLabel RNAseq
+shortLabel FemaleFruPlus_RNA
+type mathWig
+maxHeightPixels 10000:30:11
+customized on
+color 0,0,255
+
+track ct_FemaleFruPlusR1_163_32c2f660
+shortLabel FemaleFruPlus_R1
+group hub_2109735
+polished polished
+inputType bigWig
+origTrackLine track type="bigWig" name="FemaleFruPlus_R1" bigDataUrl="https://usegalaxy.org/display_application/bbd44e69cb8906b501d5cd89863f653b/ucsc_bigwig/main/ec629872d56f4954/data/galaxy_bbd44e69cb8906b501d5cd89863f653b.bigwig" db="dm6"
+name FemaleFruPlus_R1
+tdbType bigWig
+dataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b501d5cd89863f653b/ucsc_bigwig/main/ec629872d56f4954/param/track
+priority 45
+bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b501d5cd89863f653b/ucsc_bigwig/main/ec629872d56f4954/data/galaxy_bbd44e69cb8906b501d5cd89863f653b.bigwig
+altColor 127,127,127
+parent coll53225342
+customized on
+color 0,0,0
+description FemaleFruPlus_R1
+db dm6
+viewLimits 0.000000:1804.979980
+longLabel FemaleFruPlus_R1
+type bigWig
+
+track ct_FemaleFruPlusR2_164_32ff5f20
+shortLabel FemaleFruPlus_R2
+group hub_2109735
+polished polished
+inputType bigWig
+origTrackLine track type="bigWig" name="FemaleFruPlus_R2" bigDataUrl="https://usegalaxy.org/display_application/bbd44e69cb8906b5700a09b3368326cf/ucsc_bigwig/main/86ed1c9a1b5281e5/data/galaxy_bbd44e69cb8906b5700a09b3368326cf.bigwig" db="dm6"
+name FemaleFruPlus_R2
+tdbType bigWig
+dataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5700a09b3368326cf/ucsc_bigwig/main/86ed1c9a1b5281e5/param/track
+priority 46
+bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5700a09b3368326cf/ucsc_bigwig/main/86ed1c9a1b5281e5/data/galaxy_bbd44e69cb8906b5700a09b3368326cf.bigwig
+altColor 127,127,127
+parent coll53225342
+customized on
+color 0,0,0
+description FemaleFruPlus_R2
+db dm6
+viewLimits 0.000000:1712.780029
+longLabel FemaleFruPlus_R2
+type bigWig
+
+track coll53225368
+aggregate none
+compositeTrack on
+autoScale on
+showSubtrackColorOnUi on
+priority 47
+customComposite on
+visibility full
+longLabel RNAseq
+shortLabel FemaleFruMinus_RNA
+type mathWig
+maxHeightPixels 10000:30:11
+customized on
+color 0,128,0
+
+track ct_FemaleFruMinusR1_5884_32c2f660
+shortLabel FemaleFruMinus_R1
+group hub_2109735
+polished polished
+inputType bigWig
+origTrackLine track type="bigWig" name="FemaleFruMinus_R1" bigDataUrl="https://usegalaxy.org/display_application/bbd44e69cb8906b5db7e0276238624c2/ucsc_bigwig/main/88d5e52c70e96b6d/data/galaxy_bbd44e69cb8906b5db7e0276238624c2.bigwig" db="dm6"
+name FemaleFruMinus_R1
+tdbType bigWig
+dataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5db7e0276238624c2/ucsc_bigwig/main/88d5e52c70e96b6d/param/track
+priority 48
+bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5db7e0276238624c2/ucsc_bigwig/main/88d5e52c70e96b6d/data/galaxy_bbd44e69cb8906b5db7e0276238624c2.bigwig
+altColor 127,127,127
+parent coll53225368
+customized on
+color 0,0,0
+description FemaleFruMinus_R1
+db dm6
+viewLimits 0.000000:2253.639893
+longLabel FemaleFruMinus_R1
+type bigWig
+
+track ct_FemaleFruMinusR2_5885_32ff5f20
+shortLabel FemaleFruMinus_R2
+group hub_2109735
+polished polished
+inputType bigWig
+origTrackLine track type="bigWig" name="FemaleFruMinus_R2" bigDataUrl="https://usegalaxy.org/display_application/bbd44e69cb8906b50883402d1213f92e/ucsc_bigwig/main/0aa273fbaf812899/data/galaxy_bbd44e69cb8906b50883402d1213f92e.bigwig" db="dm6"
+name FemaleFruMinus_R2
+tdbType bigWig
+dataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b50883402d1213f92e/ucsc_bigwig/main/0aa273fbaf812899/param/track
+priority 49
+bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b50883402d1213f92e/ucsc_bigwig/main/0aa273fbaf812899/data/galaxy_bbd44e69cb8906b50883402d1213f92e.bigwig
+altColor 127,127,127
+parent coll53225368
+customized on
+color 0,0,0
+description FemaleFruMinus_R2
+db dm6
+viewLimits 0.000000:1896.569946
+longLabel FemaleFruMinus_R2
+type bigWig
+
+track coll55449941
+aggregate none
+compositeTrack on
+autoScale on
+showSubtrackColorOnUi on
+priority 50
+customComposite on
+visibility full
+longLabel New Collection description
+shortLabel GRN Chromatin
+type mathWig
+maxHeightPixels 10000:30:11
+customized on
+color 0,0,0
+
+track ct_GRDamOnly1_8019_34e21150
+shortLabel GRDamOnly1
+group hub_2109735
+polished polished
+inputType bigWig
+origTrackLine track name=GRDamOnly1 bigDataUrl=https://usegalaxy.org/display_application/bbd44e69cb8906b52918fffba92375fa/ucsc_bigwig/main/50aa066db33655f4/data/galaxy_bbd44e69cb8906b52918fffba92375fa.bigwig type=bigWig
+name GRDamOnly1
+tdbType bigWig
+priority 51
+bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b52918fffba92375fa/ucsc_bigwig/main/50aa066db33655f4/data/galaxy_bbd44e69cb8906b52918fffba92375fa.bigwig
+altColor 127,127,127
+parent coll55449941
+Dam Only 1 bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b52918fffba92375fa/ucsc_bigwig/main/50aa066db33655f4/data/galaxy_bbd44e69cb8906b52918fffba92375fa.bigwig
+customized on
+color 0,0,0
+description galaxy_bbd44e69cb8906b52918fffba92375fa.bigwig
+db dm6
+viewLimits 0.000000:576.299988
+longLabel galaxy_bbd44e69cb8906b52918fffba92375fa.bigwig
+type bigWig
+
+track ct_GRDamOnly2_8020_34e21150
+shortLabel GRDamOnly2
+group hub_2109735
+polished polished
+inputType bigWig
+origTrackLine track name=GRDamOnly2 bigDataUrl=https://usegalaxy.org/display_application/bbd44e69cb8906b503eda352de871d32/ucsc_bigwig/main/9e3918f5f46c9bf3/data/galaxy_bbd44e69cb8906b503eda352de871d32.bigwig type=bigWig
+name GRDamOnly2
+tdbType bigWig
+priority 52
+bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b503eda352de871d32/ucsc_bigwig/main/9e3918f5f46c9bf3/data/galaxy_bbd44e69cb8906b503eda352de871d32.bigwig
+altColor 127,127,127
+parent coll55449941
+customized on
+color 0,0,0
+description galaxy_bbd44e69cb8906b503eda352de871d32.bigwig
+db dm6
+viewLimits 0.000000:541.864014
+longLabel galaxy_bbd44e69cb8906b503eda352de871d32.bigwig
+type bigWig
+
+track ct_GRDamOnly3_8021_34e21150
+shortLabel GRDamOnly3
+group hub_2109735
+polished polished
+inputType bigWig
+origTrackLine track name=GRDamOnly3 bigDataUrl=https://usegalaxy.org/display_application/bbd44e69cb8906b5fffc20c8b49a09c6/ucsc_bigwig/main/459fd4f9eb42071d/data/galaxy_bbd44e69cb8906b5fffc20c8b49a09c6.bigwig type=bigWig
+name GRDamOnly3
+tdbType bigWig
+priority 53
+bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5fffc20c8b49a09c6/ucsc_bigwig/main/459fd4f9eb42071d/data/galaxy_bbd44e69cb8906b5fffc20c8b49a09c6.bigwig
+altColor 127,127,127
+parent coll55449941
+customized on
+color 0,0,0
+description galaxy_bbd44e69cb8906b5fffc20c8b49a09c6.bigwig
+db dm6
+viewLimits 0.000000:502.225006
+longLabel galaxy_bbd44e69cb8906b5fffc20c8b49a09c6.bigwig
+type bigWig
+
+track coll55971885
+aggregate none
+compositeTrack on
+autoScale on
+showSubtrackColorOnUi on
+priority 54
+customComposite on
+visibility full
+longLabel CTCF ChIP in eye antennal discs L3
+shortLabel EyAnt_CTCF
+type mathWig
+maxHeightPixels 10000:30:11
+customized on
+color 213,94,0
+
+track ct_bamCoverageondata76_4469_356181f0
+shortLabel Input
+group hub_2109735
+polished polished
+inputType bigWig
+origTrackLine track type="bigWig" name="bamCoverage on data 76" bigDataUrl="https://usegalaxy.org/display_application/bbd44e69cb8906b5dcfb3a85b192d8e3/ucsc_bigwig/main/1b82f7ce20de506c/data/galaxy_bbd44e69cb8906b5dcfb3a85b192d8e3.bigwig" db="dm6"
+name bamCoverage on data 76
+tdbType bigWig
+dataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5dcfb3a85b192d8e3/ucsc_bigwig/main/1b82f7ce20de506c/param/track
+priority 55
+bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5dcfb3a85b192d8e3/ucsc_bigwig/main/1b82f7ce20de506c/data/galaxy_bbd44e69cb8906b5dcfb3a85b192d8e3.bigwig
+altColor 127,127,127
+parent coll55971885
+customized on
+color 0,0,0
+description bamCoverage on data 76
+db dm6
+viewLimits 0.000000:4.671140
+longLabel Input - CTCF in Eye Antennal Discs
+type bigWig
+
+track ct_CTCF_6335_356181f0
+shortLabel CTCF
+group hub_2109735
+polished polished
+inputType bigWig
+origTrackLine track type="bigWig" name="CTCF" bigDataUrl="https://usegalaxy.org/display_application/bbd44e69cb8906b59efe3b59e1df3fdc/ucsc_bigwig/main/6bb3386e3df97e0b/data/galaxy_bbd44e69cb8906b59efe3b59e1df3fdc.bigwig" db="dm6"
+name CTCF
+tdbType bigWig
+dataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b59efe3b59e1df3fdc/ucsc_bigwig/main/6bb3386e3df97e0b/param/track
+priority 56
+bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b59efe3b59e1df3fdc/ucsc_bigwig/main/6bb3386e3df97e0b/data/galaxy_bbd44e69cb8906b59efe3b59e1df3fdc.bigwig
+altColor 127,127,127
+parent coll55971885
+customized on
+color 0,0,0
+description CTCF
+db dm6
+viewLimits 0.000000:12.696200
+longLabel IP - CTCF in Eye Antennal Discs
+type bigWig
+
+track coll61586977
+aggregate none
+compositeTrack on
+autoScale on
+showSubtrackColorOnUi on
+priority 57
+customComposite on
+visibility full
+longLabel DoubleNeg Adult Neurons
+shortLabel DN_RNAseq
+type mathWig
+maxHeightPixels 10000:30:11
+customized on
+color 10,144,134
+
+track ct_bamCoverageondata93_4484_3abc6140
+shortLabel bamCoverage on data 93
+inputType bigWig
+origTrackLine track type="bigWig" name="bamCoverage on data 93" bigDataUrl="https://usegalaxy.org/display_application/bbd44e69cb8906b541477aec24da70d1/ucsc_bigwig/main/fadb486c6ebf66e0/data/galaxy_bbd44e69cb8906b541477aec24da70d1.bigwig" db="dm6"
+name bamCoverage on data 93
+tdbType bigWig
+dataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b541477aec24da70d1/ucsc_bigwig/main/fadb486c6ebf66e0/param/track
+priority 58
+bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b541477aec24da70d1/ucsc_bigwig/main/fadb486c6ebf66e0/data/galaxy_bbd44e69cb8906b541477aec24da70d1.bigwig
+altColor 127,127,127
+parent coll61586977
+customized on
+color 0,0,0
+description bamCoverage on data 93
+db dm6
+viewLimits 0.000000:21971.300781
+longLabel bamCoverage on data 93
+type bigWig
+
+track ct_bamCoverageondata95_4486_3abc6140
+shortLabel bamCoverage on data 95
+inputType bigWig
+origTrackLine track type="bigWig" name="bamCoverage on data 95" bigDataUrl="https://usegalaxy.org/display_application/bbd44e69cb8906b56a2c4653452ab678/ucsc_bigwig/main/86523746cb03c5de/data/galaxy_bbd44e69cb8906b56a2c4653452ab678.bigwig" db="dm6"
+name bamCoverage on data 95
+tdbType bigWig
+dataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b56a2c4653452ab678/ucsc_bigwig/main/86523746cb03c5de/param/track
+priority 59
+bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b56a2c4653452ab678/ucsc_bigwig/main/86523746cb03c5de/data/galaxy_bbd44e69cb8906b56a2c4653452ab678.bigwig
+altColor 127,127,127
+parent coll61586977
+customized on
+color 0,0,0
+description bamCoverage on data 95
+db dm6
+viewLimits 0.000000:14040.200195
+longLabel bamCoverage on data 95
+type bigWig
 
