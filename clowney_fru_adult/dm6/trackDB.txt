@@ -13,16 +13,11 @@ maxHeightPixels 10000:30:11
 customized on
 color 255,0,0
 
-	track ATAC_MaleFruMinusR1
+	track MaleFruMinusR1
 	shortLabel ATAC_MaleFruMinus_R1
-	group hub_1104433
-	polished polished
 	inputType bigWig
-	origTrackLine track type="bigWig" name="MaleFruMinus_R1" bigDataUrl="https://usegalaxy.org/display_application/bbd44e69cb8906b50aea06938fd429f1/ucsc_bigwig/main/fc179a643e6b4914/data/galaxy_bbd44e69cb8906b50aea06938fd429f1.bigwig" db="dm6"
 	name MaleFruMinus_R1
 	tdbType bigWig
-	dataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b50aea06938fd429f1/ucsc_bigwig/main/fc179a643e6b4914/param/track
-	priority 2
 	bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b50aea06938fd429f1/ucsc_bigwig/main/fc179a643e6b4914/data/galaxy_bbd44e69cb8906b50aea06938fd429f1.bigwig
 	altColor 127,127,127
 	parent coll16599051
@@ -35,15 +30,11 @@ color 255,0,0
 	type bigWig
 
 	track MaleFruMinusR2
-	shortLabel MaleFruMinus_R2
-	group hub_1104433
-	polished polished
+	shortLabel ATAC_MaleFruMinus_R2
 	inputType bigWig
-	origTrackLine track type="bigWig" name="MaleFruMinus_R2" bigDataUrl="https://usegalaxy.org/display_application/bbd44e69cb8906b5dd6b738f9b7cb225/ucsc_bigwig/main/0cd07f7f0e4314d4/data/galaxy_bbd44e69cb8906b5dd6b738f9b7cb225.bigwig" db="dm6"
 	name MaleFruMinus_R2
 	tdbType bigWig
 	dataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5dd6b738f9b7cb225/ucsc_bigwig/main/0cd07f7f0e4314d4/param/track
-	priority 3
 	bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5dd6b738f9b7cb225/ucsc_bigwig/main/0cd07f7f0e4314d4/data/galaxy_bbd44e69cb8906b5dd6b738f9b7cb225.bigwig
 	altColor 127,127,127
 	parent coll16599051
