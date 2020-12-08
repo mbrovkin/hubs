@@ -137,7 +137,7 @@ visibility full
 container multiWig
 
 	track MaleFruPlusR1_RNA
-	bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b575de6041faa96a26/ucsc_bigwig/main/d260dc0fe3f43aaa/data/galaxy_bbd44e69cb8906b575de6041faa96a26.bigwig
+	bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b573cbd1b75495396d/ucsc_bigwig/main/7ec68e0d0db57365/data/galaxy_bbd44e69cb8906b573cbd1b75495396d.bigwig
 	shortLabel MaleFruPlusR1_RNA
 	longLabel MaleFruPlusR1 RNA Adult
 	type bigWig
@@ -147,7 +147,7 @@ container multiWig
 
 
 	track MaleFruPlusR2_RNA
-	bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5b3d5ac88f90842b2/ucsc_bigwig/main/fd8031aa85807d4e/data/galaxy_bbd44e69cb8906b5b3d5ac88f90842b2.bigwig
+	bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b58cd2a0984d777ea6/ucsc_bigwig/main/8d9d0aea05f8fbbb/data/galaxy_bbd44e69cb8906b58cd2a0984d777ea6.bigwig
 	shortLabel MaleFruPlusR2_RNA
 	longLabel MaleFruPlusR2 RNA Adult
 	type bigWig
