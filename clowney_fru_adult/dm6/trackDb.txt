@@ -9,20 +9,20 @@ maxHeightPixels 128:30:8
 visibility full
 container multiWig
 
-	track MaleFruPlusR1
+	track MaleFruPlusR1_ATAC
 	bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b502c9c96fb3818161/ucsc_bigwig/main/8444cf9becb33514/data/galaxy_bbd44e69cb8906b502c9c96fb3818161.bigwig
-	shortLabel MaleFruPlus_R1
-	longLabel MaleFruPlus_R1
+	shortLabel MaleFruPlusR1_ATAC
+	longLabel MaleFruPlusR1 ATAC Adult
 	type bigWig
 	color 255,128,0
 	parent MFP on
 	visibility full
 
 
-	track MaleFruPlusR2
+	track MaleFruPlusR2_ATAC
 	bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5492a14dd2b98bc72/ucsc_bigwig/main/be63b07adac539e1/data/galaxy_bbd44e69cb8906b5492a14dd2b98bc72.bigwig
-	shortLabel MaleFruPlus_R2
-	longLabel MaleFruPlus_R2
+	shortLabel MaleFruPlusR2_ATAC
+	longLabel MaleFruPlusR2 ATAC Adult
 	type bigWig
 	color 255,128,0
 	parent MFP on
@@ -40,20 +40,20 @@ maxHeightPixels 128:30:8
 visibility full
 container multiWig
 
-	track FemFruPlusR1
+	track FemFruPlusR1_ATAC
 	bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5b19354ff4de8a77d/ucsc_bigwig/main/5057dd45a68eb010/data/galaxy_bbd44e69cb8906b5b19354ff4de8a77d.bigwig
-	shortLabel FemFruPlus_R1
-	longLabel FemFruPlus_R1
+	shortLabel FemFruPlusR1_ATAC
+	longLabel FemFruPlusR1 ATAC Adult
 	type bigWig
 	color 0,0,255
 	parent FFP on
 	visibility full
 
 
-	track FemFruPlusR2
+	track FemFruPlusR2_ATAC
 	bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b503aec952cd87d5f7/ucsc_bigwig/main/702185ad9e92b5a2/data/galaxy_bbd44e69cb8906b503aec952cd87d5f7.bigwig
-	shortLabel FemFruPlus_R2
-	longLabel FemaFruPlus_R2
+	shortLabel FemFruPlusR2_ATAC
+	longLabel FemaFruPlusR2 ATAC Adult
 	type bigWig
 	color 0,0,255
 	parent FFP on
@@ -72,20 +72,20 @@ maxHeightPixels 128:30:8
 visibility full
 container multiWig
 
-	track MaleFruMinusR1
+	track MaleFruMinusR1_ATAC
 	bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b50aea06938fd429f1/ucsc_bigwig/main/fc179a643e6b4914/data/galaxy_bbd44e69cb8906b50aea06938fd429f1.bigwig
-	shortLabel MaleFruMinus_R1
-	longLabel MaleFruMinus_R1
+	shortLabel MaleFruMinusR1_ATAC
+	longLabel MaleFruMinusR1 ATAC Adult
 	type bigWig
 	color 255,0,0
 	parent MFM on
 	visibility full
 
 
-	track MaleFruMinusR2
+	track MaleFruMinusR2_ATAC
 	bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5dd6b738f9b7cb225/ucsc_bigwig/main/0cd07f7f0e4314d4/data/galaxy_bbd44e69cb8906b5dd6b738f9b7cb225.bigwig
-	shortLabel MaleFruMinus_R2
-	longLabel MaleFruMinusR1_R2
+	shortLabel MaleFruMinusR2_ATAC
+	longLabel MaleFruMinusR2 ATAC Adult
 	type bigWig
 	color 255,0,0
 	parent MFM on
@@ -104,27 +104,24 @@ maxHeightPixels 128:30:8
 visibility full
 container multiWig
 
-	track FemFruMinusR1
+	track FemFruMinusR1_ATAC
 	bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b575de6041faa96a26/ucsc_bigwig/main/d260dc0fe3f43aaa/data/galaxy_bbd44e69cb8906b575de6041faa96a26.bigwig
-	shortLabel FemFruMinus_R1
-	longLabel FemFruMinus_R1
+	shortLabel FemFruMinusR1_ATAC
+	longLabel FemFruMinusR1 ATAC Adult
 	type bigWig
 	color 0,128,0
 	parent FFP on
 	visibility full
 
 
-	track FemFruMinusR2
+	track FemFruMinusR2_ATAC
 	bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5b3d5ac88f90842b2/ucsc_bigwig/main/fd8031aa85807d4e/data/galaxy_bbd44e69cb8906b5b3d5ac88f90842b2.bigwig
-	shortLabel FemFruMinus_R2
-	longLabel FemFruMinus_R2
+	shortLabel FemFruMinusR2_ATAC
+	longLabel FemFruMinusR2 ATAC Adult
 	type bigWig
 	color 0,128,0
 	parent FFP on
 	visibility full
-
-
-
 
 
 
