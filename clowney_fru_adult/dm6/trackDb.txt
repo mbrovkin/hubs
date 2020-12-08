@@ -7,7 +7,6 @@ showSubtrackColorOnUi on
 viewLimits 0:450
 maxHeightPixels 128:30:8
 visibility full
-color 255,128,0
 container multiWig
 
 	track MaleFruPlusR1
@@ -15,7 +14,7 @@ container multiWig
 	shortLabel MaleFruPlus_R1
 	longLabel MaleFruPlus_R1
 	type bigWig
-	color 0,0,0
+	color 255,128,0
 	parent MFP on
 	visibility full
 
@@ -25,39 +24,38 @@ container multiWig
 	shortLabel MaleFruPlus_R2
 	longLabel MaleFruPlus_R2
 	type bigWig
-	color 0,0,0
+	color 255,128,0
 	parent MFP on
 	visibility full
 
 
 track FFP
-shortLabel FemaleFruPlus ATAC
-longLabel FemaleFruPlus ATAC Adult
+shortLabel FemFruPlus ATAC
+longLabel FemFruPlus ATAC Adult
 type bigWig
 aggregate transparentOverlay
 showSubtrackColorOnUi on
 viewLimits 0:450
 maxHeightPixels 128:30:8
 visibility full
-color 0,0,255
 container multiWig
 
-	track FemaleFruPlusR1
+	track FemFruPlusR1
 	bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5b19354ff4de8a77d/ucsc_bigwig/main/5057dd45a68eb010/data/galaxy_bbd44e69cb8906b5b19354ff4de8a77d.bigwig
-	shortLabel FemaleFruPlus_R1
-	longLabel FemaleFruPlus_R1
+	shortLabel FemFruPlus_R1
+	longLabel FemFruPlus_R1
 	type bigWig
-	color 0,0,0
+	color 0,0,255
 	parent FFP on
 	visibility full
 
 
-	track FemaleFruPlusR2
+	track FemFruPlusR2
 	bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b503aec952cd87d5f7/ucsc_bigwig/main/702185ad9e92b5a2/data/galaxy_bbd44e69cb8906b503aec952cd87d5f7.bigwig
-	shortLabel FemaleFruPlus_R2
-	longLabel FemaleFruPlus_R2
+	shortLabel FemFruPlus_R2
+	longLabel FemaFruPlus_R2
 	type bigWig
-	color 0,0,0
+	color 0,0,255
 	parent FFP on
 	visibility full
 
@@ -72,7 +70,6 @@ showSubtrackColorOnUi on
 viewLimits 0:450
 maxHeightPixels 128:30:8
 visibility full
-color 255,0,0
 container multiWig
 
 	track MaleFruMinusR1
@@ -80,7 +77,7 @@ container multiWig
 	shortLabel MaleFruMinus_R1
 	longLabel MaleFruMinus_R1
 	type bigWig
-	color 0,0,0
+	color 255,0,0
 	parent MFM on
 	visibility full
 
@@ -90,6 +87,170 @@ container multiWig
 	shortLabel MaleFruMinus_R2
 	longLabel MaleFruMinusR1_R2
 	type bigWig
-	color 0,0,0
+	color 255,0,0
 	parent MFM on
+	visibility full
+
+
+
+track FFM
+shortLabel FemFruMinus ATAC
+longLabel FemFruMinus ATAC Adult
+type bigWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+viewLimits 0:450
+maxHeightPixels 128:30:8
+visibility full
+container multiWig
+
+	track FemFruMinusR1
+	bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b575de6041faa96a26/ucsc_bigwig/main/d260dc0fe3f43aaa/data/galaxy_bbd44e69cb8906b575de6041faa96a26.bigwig
+	shortLabel FemFruMinus_R1
+	longLabel FemFruMinus_R1
+	type bigWig
+	color 0,128,0
+	parent FFP on
+	visibility full
+
+
+	track FemFruMinusR2
+	bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5b3d5ac88f90842b2/ucsc_bigwig/main/fd8031aa85807d4e/data/galaxy_bbd44e69cb8906b5b3d5ac88f90842b2.bigwig
+	shortLabel FemFruMinus_R2
+	longLabel FemFruMinus_R2
+	type bigWig
+	color 0,128,0
+	parent FFP on
+	visibility full
+
+
+
+
+
+
+track MFP2
+shortLabel MaleFruPlus RNA
+longLabel MaleFruPlus RNA Adult
+type bigWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+viewLimits 0:50
+maxHeightPixels 128:30:8
+visibility full
+container multiWig
+
+	track MaleFruPlusR1_RNA
+	bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b575de6041faa96a26/ucsc_bigwig/main/d260dc0fe3f43aaa/data/galaxy_bbd44e69cb8906b575de6041faa96a26.bigwig
+	shortLabel MaleFruPlusR1_RNA
+	longLabel MaleFruPlusR1 RNA Adult
+	type bigWig
+	color 255,128,0
+	parent MFP2 on
+	visibility full
+
+
+	track MaleFruPlusR2_RNA
+	bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5b3d5ac88f90842b2/ucsc_bigwig/main/fd8031aa85807d4e/data/galaxy_bbd44e69cb8906b5b3d5ac88f90842b2.bigwig
+	shortLabel MaleFruPlusR2_RNA
+	longLabel MaleFruPlusR2 RNA Adult
+	type bigWig
+	color 255,128,0
+	parent MFP2 on
+	visibility full
+
+
+
+
+track FFP2
+shortLabel FemFruPlus RNA
+longLabel  FemFruPlus RNA Adult
+type bigWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+viewLimits 0:50
+maxHeightPixels 128:30:8
+visibility full
+container multiWig
+
+	track FemFruPlusR1_RNA
+	bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b501d5cd89863f653b/ucsc_bigwig/main/ec629872d56f4954/data/galaxy_bbd44e69cb8906b501d5cd89863f653b.bigwig
+	shortLabel FemFruPlusR1_RNA
+	longLabel  FemFruPlusR1 RNA Adult
+	type bigWig
+	color 0,0,255
+	parent FFP2 on
+	visibility full
+
+
+	track FemFruPlusR2_RNA
+	bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5700a09b3368326cf/ucsc_bigwig/main/86ed1c9a1b5281e5/data/galaxy_bbd44e69cb8906b5700a09b3368326cf.bigwig
+	shortLabel FemFruPlusR2_RNA
+	longLabel  FemFruPlusR2 RNA Adult
+	type bigWig
+	color 0,0,255
+	parent FFP2 on
+	visibility full
+
+
+
+track MFM2
+shortLabel MaleFruMinus_RNA
+longLabel  MaleFruMinus RNA Adult
+type bigWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+viewLimits 0:50
+maxHeightPixels 128:30:8
+visibility full
+container multiWig
+
+	track MaleFruMinusR1_RNA
+	bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5990c1b1f2297e27c/ucsc_bigwig/main/a9f0d6397569e05e/data/galaxy_bbd44e69cb8906b5990c1b1f2297e27c.bigwig
+	shortLabel MaleFruMinusR1_RNA
+	longLabel  MaleFruMinusR1 RNA Adult
+	type bigWig
+	color 255,0,0
+	parent MFM2 on
+	visibility full
+
+
+	track MaleFruMinusR2_RNA
+	bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b57e41029210792bcf/ucsc_bigwig/main/14882c3e09771694/data/galaxy_bbd44e69cb8906b57e41029210792bcf.bigwig
+	shortLabel MaleFruMinusR2_RNA
+	longLabel  MaleFruMinusR2 RNA Adult
+	type bigWig
+	color 255,0,0
+	parent MFM2 on
+	visibility full
+
+
+
+track FFM2
+shortLabel FemFruMinus_RNA
+longLabel  FemFruMinus RNA Adult
+type bigWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+viewLimits 0:50
+maxHeightPixels 128:30:8
+visibility full
+container multiWig
+
+	track FemFruMinusR1_RNA
+	bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5db7e0276238624c2/ucsc_bigwig/main/88d5e52c70e96b6d/data/galaxy_bbd44e69cb8906b5db7e0276238624c2.bigwig
+	shortLabel FemFruMinusR1_RNA
+	longLabel  FemFruMinusR1 RNA Adult
+	type bigWig
+	color 0,128,0
+	parent FFM2 on
+	visibility full
+
+
+	track FemFruMinusR2_RNA
+	bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b50883402d1213f92e/ucsc_bigwig/main/0aa273fbaf812899/data/galaxy_bbd44e69cb8906b50883402d1213f92e.bigwig
+	shortLabel FemFruMinusR2_RNA
+	longLabel  FemFruMinusR2 RNA Adult
+	type bigWig
+	color 0,128,0
+	parent FFM2 on
 	visibility full
