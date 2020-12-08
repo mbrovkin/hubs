@@ -1,0 +1,103 @@
+track MFP
+shortLabel MaleFruPlus ATAC
+longLabel MaleFruPlus ATAC Adult
+type bigWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+viewLimits 0:450
+maxHeightPixels 128:30:8
+visibility full
+color 255,128,0
+container multiWig
+
+	track MaleFruPlusR1
+	bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b502c9c96fb3818161/ucsc_bigwig/main/8444cf9becb33514/data/galaxy_bbd44e69cb8906b502c9c96fb3818161.bigwig
+	shortLabel MaleFruPlus_R1
+	longLabel MaleFruPlus_R1
+	type bigWig
+	color 0,0,0
+	parent MFP on
+	visibility full
+
+
+	track MaleFruPlusR2
+	bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5492a14dd2b98bc72/ucsc_bigwig/main/be63b07adac539e1/data/galaxy_bbd44e69cb8906b5492a14dd2b98bc72.bigwig
+	shortLabel MaleFruPlus_R2
+	longLabel MaleFruPlus_R2
+	type bigWig
+	color 0,0,0
+	parent MFP on
+	visibility full
+<<<<<<< HEAD:clowney_fru_adult/dm6/trackDB.txt
+
+
+track FFP
+shortLabel FemaleFruPlus ATAC
+longLabel FemaleFruPlus ATAC Adult
+type bigWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+viewLimits 0:450
+maxHeightPixels 128:30:8
+visibility full
+color 0,0,255
+container multiWig
+
+	track FemaleFruPlusR1
+	bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5b19354ff4de8a77d/ucsc_bigwig/main/5057dd45a68eb010/data/galaxy_bbd44e69cb8906b5b19354ff4de8a77d.bigwig
+	shortLabel FemaleFruPlus_R1
+	longLabel FemaleFruPlus_R1
+	type bigWig
+	color 0,0,0
+	parent FFP on
+	visibility full
+
+
+	track FemaleFruPlusR2
+	bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b503aec952cd87d5f7/ucsc_bigwig/main/702185ad9e92b5a2/data/galaxy_bbd44e69cb8906b503aec952cd87d5f7.bigwig
+	shortLabel FemaleFruPlus_R2
+	longLabel FemaleFruPlus_R2
+	type bigWig
+	color 0,0,0
+	parent FFP on
+	visibility full
+
+
+
+
+track MFM
+shortLabel MaleFruMinus ATAC
+longLabel MaleFruMinus ATAC Adult
+type bigWig
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+viewLimits 0:450
+maxHeightPixels 128:30:8
+visibility full
+color 255,0,0
+container multiWig
+
+	track MaleFruMinusR1
+	bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b50aea06938fd429f1/ucsc_bigwig/main/fc179a643e6b4914/data/galaxy_bbd44e69cb8906b50aea06938fd429f1.bigwig
+	shortLabel MaleFruMinus_R1
+	longLabel MaleFruMinus_R1
+	type bigWig
+	color 0,0,0
+	parent MFM on
+	visibility full
+
+
+	track FemaleFruPlusR2
+	bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5dd6b738f9b7cb225/ucsc_bigwig/main/0cd07f7f0e4314d4/data/galaxy_bbd44e69cb8906b5dd6b738f9b7cb225.bigwig
+	shortLabel MaleFruMinus_R2
+	longLabel MaleFruMinusR1_R2
+	type bigWig
+	color 0,0,0
+	parent MFM on
+	visibility full
+
+
+
+
+=======
+>>>>>>> 66abf01076233fb84641f1f99ae416563105a990:clowney_fru_adult/dm6/trackDb.txt
