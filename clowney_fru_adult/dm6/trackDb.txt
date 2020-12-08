@@ -85,7 +85,7 @@ container multiWig
 	visibility full
 
 
-	track FemaleFruPlusR2
+	track MaleFruMinusR2
 	bigDataUrl https://usegalaxy.org/display_application/bbd44e69cb8906b5dd6b738f9b7cb225/ucsc_bigwig/main/0cd07f7f0e4314d4/data/galaxy_bbd44e69cb8906b5dd6b738f9b7cb225.bigwig
 	shortLabel MaleFruMinus_R2
 	longLabel MaleFruMinusR1_R2
