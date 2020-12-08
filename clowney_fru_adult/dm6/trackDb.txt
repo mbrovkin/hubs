@@ -28,7 +28,6 @@ container multiWig
 	color 0,0,0
 	parent MFP on
 	visibility full
-<<<<<<< HEAD:clowney_fru_adult/dm6/trackDB.txt
 
 
 track FFP
@@ -64,7 +63,6 @@ container multiWig
 
 
 
-
 track MFM
 shortLabel MaleFruMinus ATAC
 longLabel MaleFruMinus ATAC Adult
@@ -95,9 +93,3 @@ container multiWig
 	color 0,0,0
 	parent MFM on
 	visibility full
-
-
-
-
-=======
->>>>>>> 66abf01076233fb84641f1f99ae416563105a990:clowney_fru_adult/dm6/trackDb.txt
